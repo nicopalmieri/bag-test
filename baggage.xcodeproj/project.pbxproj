@@ -14,6 +14,29 @@
 		389B936E1FD83F3500C33BBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B936C1FD83F3500C33BBA /* LaunchScreen.storyboard */; };
 		389B93791FD83F3500C33BBA /* baggageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93781FD83F3500C33BBA /* baggageTests.swift */; };
 		389B93841FD83F3500C33BBA /* baggageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93831FD83F3500C33BBA /* baggageUITests.swift */; };
+		389B93931FD864AB00C33BBA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93921FD864AB00C33BBA /* Alamofire.framework */; };
+		389B93951FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93941FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework */; };
+		389B93971FD864B400C33BBA /* DateTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93961FD864B400C33BBA /* DateTools.framework */; };
+		389B93991FD864BA00C33BBA /* EasyTipView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93981FD864BA00C33BBA /* EasyTipView.framework */; };
+		389B939B1FD864BF00C33BBA /* Gloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B939A1FD864BF00C33BBA /* Gloss.framework */; };
+		389B939D1FD864C400C33BBA /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B939C1FD864C300C33BBA /* HockeySDK.framework */; };
+		389B939F1FD864C800C33BBA /* JWTDecode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B939E1FD864C800C33BBA /* JWTDecode.framework */; };
+		389B93A11FD864CC00C33BBA /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A01FD864CC00C33BBA /* Kingfisher.framework */; };
+		389B93A31FD864D400C33BBA /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A21FD864D400C33BBA /* Lottie.framework */; };
+		389B93B21FD864FF00C33BBA /* NSLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A41FD864FE00C33BBA /* NSLogger.framework */; };
+		389B93B31FD864FF00C33BBA /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A51FD864FF00C33BBA /* RxCocoa.framework */; };
+		389B93B41FD864FF00C33BBA /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A61FD864FF00C33BBA /* RxSwift.framework */; };
+		389B93B51FD864FF00C33BBA /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A71FD864FF00C33BBA /* RxBlocking.framework */; };
+		389B93B61FD864FF00C33BBA /* Usabilla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A81FD864FF00C33BBA /* Usabilla.framework */; };
+		389B93B71FD864FF00C33BBA /* Rswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A91FD864FF00C33BBA /* Rswift.framework */; };
+		389B93B81FD864FF00C33BBA /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AA1FD864FF00C33BBA /* Realm.framework */; };
+		389B93B91FD864FF00C33BBA /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AB1FD864FF00C33BBA /* RxTest.framework */; };
+		389B93BA1FD864FF00C33BBA /* Neon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AC1FD864FF00C33BBA /* Neon.framework */; };
+		389B93BB1FD864FF00C33BBA /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AD1FD864FF00C33BBA /* XCGLogger.framework */; };
+		389B93BC1FD864FF00C33BBA /* OAuth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AE1FD864FF00C33BBA /* OAuth2.framework */; };
+		389B93BD1FD864FF00C33BBA /* RxRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AF1FD864FF00C33BBA /* RxRealm.framework */; };
+		389B93BE1FD864FF00C33BBA /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93B01FD864FF00C33BBA /* RealmSwift.framework */; };
+		389B93BF1FD864FF00C33BBA /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93B11FD864FF00C33BBA /* SwiftDate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +70,29 @@
 		389B937F1FD83F3500C33BBA /* baggageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baggageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		389B93831FD83F3500C33BBA /* baggageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baggageUITests.swift; sourceTree = "<group>"; };
 		389B93851FD83F3500C33BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		389B93921FD864AB00C33BBA /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		389B93941FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireNetworkActivityIndicator.framework; path = Carthage/Build/iOS/AlamofireNetworkActivityIndicator.framework; sourceTree = "<group>"; };
+		389B93961FD864B400C33BBA /* DateTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DateTools.framework; path = Carthage/Build/iOS/DateTools.framework; sourceTree = "<group>"; };
+		389B93981FD864BA00C33BBA /* EasyTipView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyTipView.framework; path = Carthage/Build/iOS/EasyTipView.framework; sourceTree = "<group>"; };
+		389B939A1FD864BF00C33BBA /* Gloss.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gloss.framework; path = Carthage/Build/iOS/Gloss.framework; sourceTree = "<group>"; };
+		389B939C1FD864C300C33BBA /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = Carthage/Build/iOS/HockeySDK.framework; sourceTree = "<group>"; };
+		389B939E1FD864C800C33BBA /* JWTDecode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JWTDecode.framework; path = Carthage/Build/iOS/JWTDecode.framework; sourceTree = "<group>"; };
+		389B93A01FD864CC00C33BBA /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		389B93A21FD864D400C33BBA /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
+		389B93A41FD864FE00C33BBA /* NSLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSLogger.framework; path = Carthage/Build/iOS/NSLogger.framework; sourceTree = "<group>"; };
+		389B93A51FD864FF00C33BBA /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		389B93A61FD864FF00C33BBA /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		389B93A71FD864FF00C33BBA /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		389B93A81FD864FF00C33BBA /* Usabilla.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Usabilla.framework; path = Carthage/Build/iOS/Usabilla.framework; sourceTree = "<group>"; };
+		389B93A91FD864FF00C33BBA /* Rswift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Rswift.framework; path = Carthage/Build/iOS/Rswift.framework; sourceTree = "<group>"; };
+		389B93AA1FD864FF00C33BBA /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		389B93AB1FD864FF00C33BBA /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		389B93AC1FD864FF00C33BBA /* Neon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Neon.framework; path = Carthage/Build/iOS/Neon.framework; sourceTree = "<group>"; };
+		389B93AD1FD864FF00C33BBA /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/iOS/XCGLogger.framework; sourceTree = "<group>"; };
+		389B93AE1FD864FF00C33BBA /* OAuth2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuth2.framework; path = Carthage/Build/iOS/OAuth2.framework; sourceTree = "<group>"; };
+		389B93AF1FD864FF00C33BBA /* RxRealm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRealm.framework; path = Carthage/Build/iOS/RxRealm.framework; sourceTree = "<group>"; };
+		389B93B01FD864FF00C33BBA /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		389B93B11FD864FF00C33BBA /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +100,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				389B93931FD864AB00C33BBA /* Alamofire.framework in Frameworks */,
+				389B93951FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework in Frameworks */,
+				389B93971FD864B400C33BBA /* DateTools.framework in Frameworks */,
+				389B93991FD864BA00C33BBA /* EasyTipView.framework in Frameworks */,
+				389B939B1FD864BF00C33BBA /* Gloss.framework in Frameworks */,
+				389B939D1FD864C400C33BBA /* HockeySDK.framework in Frameworks */,
+				389B939F1FD864C800C33BBA /* JWTDecode.framework in Frameworks */,
+				389B93A11FD864CC00C33BBA /* Kingfisher.framework in Frameworks */,
+				389B93A31FD864D400C33BBA /* Lottie.framework in Frameworks */,
+				389B93B21FD864FF00C33BBA /* NSLogger.framework in Frameworks */,
+				389B93B31FD864FF00C33BBA /* RxCocoa.framework in Frameworks */,
+				389B93B41FD864FF00C33BBA /* RxSwift.framework in Frameworks */,
+				389B93B51FD864FF00C33BBA /* RxBlocking.framework in Frameworks */,
+				389B93B61FD864FF00C33BBA /* Usabilla.framework in Frameworks */,
+				389B93B71FD864FF00C33BBA /* Rswift.framework in Frameworks */,
+				389B93B81FD864FF00C33BBA /* Realm.framework in Frameworks */,
+				389B93B91FD864FF00C33BBA /* RxTest.framework in Frameworks */,
+				389B93BA1FD864FF00C33BBA /* Neon.framework in Frameworks */,
+				389B93BB1FD864FF00C33BBA /* XCGLogger.framework in Frameworks */,
+				389B93BC1FD864FF00C33BBA /* OAuth2.framework in Frameworks */,
+				389B93BD1FD864FF00C33BBA /* RxRealm.framework in Frameworks */,
+				389B93BE1FD864FF00C33BBA /* RealmSwift.framework in Frameworks */,
+				389B93BF1FD864FF00C33BBA /* SwiftDate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +150,7 @@
 				389B93771FD83F3500C33BBA /* baggageTests */,
 				389B93821FD83F3500C33BBA /* baggageUITests */,
 				389B93611FD83F3500C33BBA /* Products */,
+				389B93911FD864AB00C33BBA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +195,36 @@
 			path = baggageUITests;
 			sourceTree = "<group>";
 		};
+		389B93911FD864AB00C33BBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				389B93AC1FD864FF00C33BBA /* Neon.framework */,
+				389B93A41FD864FE00C33BBA /* NSLogger.framework */,
+				389B93AE1FD864FF00C33BBA /* OAuth2.framework */,
+				389B93AA1FD864FF00C33BBA /* Realm.framework */,
+				389B93B01FD864FF00C33BBA /* RealmSwift.framework */,
+				389B93A91FD864FF00C33BBA /* Rswift.framework */,
+				389B93A71FD864FF00C33BBA /* RxBlocking.framework */,
+				389B93A51FD864FF00C33BBA /* RxCocoa.framework */,
+				389B93AF1FD864FF00C33BBA /* RxRealm.framework */,
+				389B93A61FD864FF00C33BBA /* RxSwift.framework */,
+				389B93AB1FD864FF00C33BBA /* RxTest.framework */,
+				389B93B11FD864FF00C33BBA /* SwiftDate.framework */,
+				389B93A81FD864FF00C33BBA /* Usabilla.framework */,
+				389B93AD1FD864FF00C33BBA /* XCGLogger.framework */,
+				389B93A21FD864D400C33BBA /* Lottie.framework */,
+				389B93A01FD864CC00C33BBA /* Kingfisher.framework */,
+				389B939E1FD864C800C33BBA /* JWTDecode.framework */,
+				389B939C1FD864C300C33BBA /* HockeySDK.framework */,
+				389B939A1FD864BF00C33BBA /* Gloss.framework */,
+				389B93981FD864BA00C33BBA /* EasyTipView.framework */,
+				389B93961FD864B400C33BBA /* DateTools.framework */,
+				389B93941FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework */,
+				389B93921FD864AB00C33BBA /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +235,7 @@
 				389B935C1FD83F3500C33BBA /* Sources */,
 				389B935D1FD83F3500C33BBA /* Frameworks */,
 				389B935E1FD83F3500C33BBA /* Resources */,
+				389B93C01FD8657F00C33BBA /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -253,6 +354,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		389B93C01FD8657F00C33BBA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireNetworkActivityIndicator.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/DateTools.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/EasyTipView.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Gloss.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/HockeySDK.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/JWTDecode.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Lottie.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/NSLogger.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Usabilla.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Rswift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Neon.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/XCGLogger.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/OAuth2.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRealm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftDate.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		389B935C1FD83F3500C33BBA /* Sources */ = {
@@ -427,6 +567,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = baggage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -442,6 +586,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = baggage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
