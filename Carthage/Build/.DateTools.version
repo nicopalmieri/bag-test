@@ -1,0 +1,9 @@
+{
+  "commitish" : "v1.7.0",
+  "iOS" : [
+    {
+      "name" : "DateTools",
+      "hash" : "4ce125c7d009dcb1fcb1569ea9ed809281972093498e84d2a53726188910d668"
+    }
+  ]
+}

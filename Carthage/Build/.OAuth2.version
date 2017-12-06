@@ -1,0 +1,9 @@
+{
+  "commitish" : "e473d62faf3642719a4897181368f3fb4c4ff676",
+  "iOS" : [
+    {
+      "name" : "OAuth2",
+      "hash" : "ee0fc793429b3b3147d440ac211fcc2008a86b2cf9acd308cf24b3c775224156"
+    }
+  ]
+}

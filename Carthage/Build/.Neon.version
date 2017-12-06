@@ -1,0 +1,9 @@
+{
+  "commitish" : "v0.4.0",
+  "iOS" : [
+    {
+      "name" : "Neon",
+      "hash" : "1d667fef2a70f069ce194956a0127e3cd5d9a6baa38bf1f724b80f75e8d9ea8f"
+    }
+  ]
+}
