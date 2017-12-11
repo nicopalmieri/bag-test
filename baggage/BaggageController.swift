@@ -8,16 +8,11 @@
 
 import UIKit
 
-class BaggageController: UIViewController {
+public final class BaggageController: UIViewController {
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         showThaView()
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     public func showThaView() {
