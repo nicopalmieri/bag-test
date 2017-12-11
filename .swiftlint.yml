@@ -4,6 +4,7 @@ disabled_rules: # rule identifiers to exclude from running
   - force_try
   - force_cast
   - trailing_comma
+  - type_name
 opt_in_rules: # some rules are only opt-in
   - closing_brace
   - opening_brace
@@ -15,7 +16,7 @@ opt_in_rules: # some rules are only opt-in
   - redundant_nil_coalesing
   # Find all the available rules by running:
   # swiftlint rules
-included: # paths to include during linting. `--path` is ignored if present.
+
 excluded: # paths to ignore during linting. Takes precedence over `included`.
   - Carthage
   - Pods
@@ -39,4 +40,4 @@ function_parameter_count: 10
 type_body_length: 500
 file_length: 500
 
-reporter: "json" # reporter type (xcode, json, csv, checkstyle)
+reporter: "xcode" # reporter type (xcode, json, csv, checkstyle)

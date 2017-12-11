@@ -22,7 +22,7 @@ extension UINavigationController {
         _ = self.popToRootViewController(animated: animated)
     }
 
-    func popTo(controller : UIViewController, animated: Bool) {
+    func popTo(controller: UIViewController, animated: Bool) {
         // let's pop to a certain controller, animated or not
         _ = self.popToViewController(controller, animated: animated)
     }

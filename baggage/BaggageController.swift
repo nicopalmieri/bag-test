@@ -9,7 +9,6 @@
 import UIKit
 
 public final class BaggageController: UIViewController {
-
     override public func viewDidLoad() {
         super.viewDidLoad()
         showThaView()
@@ -20,4 +19,3 @@ public final class BaggageController: UIViewController {
         print("success!")
     }
 }
-
