@@ -38,6 +38,14 @@
 		389B93BD1FD864FF00C33BBA /* RxRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AF1FD864FF00C33BBA /* RxRealm.framework */; };
 		389B93BE1FD864FF00C33BBA /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93B01FD864FF00C33BBA /* RealmSwift.framework */; };
 		389B93BF1FD864FF00C33BBA /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93B11FD864FF00C33BBA /* SwiftDate.framework */; };
+		38BA98C91FDF0706008297AA /* baggage_journey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BA98C01FDF0706008297AA /* baggage_journey.framework */; };
+		38BA98D01FDF0706008297AA /* baggage_journeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA98CF1FDF0706008297AA /* baggage_journeyTests.swift */; };
+		38BA98D21FDF0706008297AA /* baggage_journey.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BA98C21FDF0706008297AA /* baggage_journey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38BA98D51FDF0706008297AA /* baggage_journey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BA98C01FDF0706008297AA /* baggage_journey.framework */; };
+		38BA98D71FDF0706008297AA /* baggage_journey.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38BA98C01FDF0706008297AA /* baggage_journey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		38BA98DE1FDF0715008297AA /* UINavigation+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852BEB01FDEC8E8006C51BE /* UINavigation+bag.swift */; };
+		38BA98DF1FDF0715008297AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93631FD83F3500C33BBA /* AppDelegate.swift */; };
+		38BA98E01FDF0715008297AA /* BaggageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93651FD83F3500C33BBA /* BaggageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +63,42 @@
 			remoteGlobalIDString = 389B935F1FD83F3500C33BBA;
 			remoteInfo = baggage;
 		};
+		38BA98CA1FDF0706008297AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 389B93581FD83F3500C33BBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38BA98BF1FDF0706008297AA;
+			remoteInfo = "baggage-journey";
+		};
+		38BA98CC1FDF0706008297AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 389B93581FD83F3500C33BBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 389B935F1FD83F3500C33BBA;
+			remoteInfo = baggage;
+		};
+		38BA98D31FDF0706008297AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 389B93581FD83F3500C33BBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38BA98BF1FDF0706008297AA;
+			remoteInfo = "baggage-journey";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		38BA98D61FDF0706008297AA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				38BA98D71FDF0706008297AA /* baggage_journey.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3852BEB01FDEC8E8006C51BE /* UINavigation+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UINavigation+bag.swift"; path = "baggage/Extensions/UINavigation+bag.swift"; sourceTree = SOURCE_ROOT; };
@@ -95,6 +138,12 @@
 		389B93AF1FD864FF00C33BBA /* RxRealm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRealm.framework; path = Carthage/Build/iOS/RxRealm.framework; sourceTree = "<group>"; };
 		389B93B01FD864FF00C33BBA /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		389B93B11FD864FF00C33BBA /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = "<group>"; };
+		38BA98C01FDF0706008297AA /* baggage_journey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = baggage_journey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BA98C21FDF0706008297AA /* baggage_journey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baggage_journey.h; sourceTree = "<group>"; };
+		38BA98C31FDF0706008297AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BA98C81FDF0706008297AA /* baggage-journeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "baggage-journeyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BA98CF1FDF0706008297AA /* baggage_journeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baggage_journeyTests.swift; sourceTree = "<group>"; };
+		38BA98D11FDF0706008297AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +167,7 @@
 				389B93B71FD864FF00C33BBA /* Rswift.framework in Frameworks */,
 				389B93B81FD864FF00C33BBA /* Realm.framework in Frameworks */,
 				389B93BA1FD864FF00C33BBA /* Neon.framework in Frameworks */,
+				38BA98D51FDF0706008297AA /* baggage_journey.framework in Frameworks */,
 				389B93BB1FD864FF00C33BBA /* XCGLogger.framework in Frameworks */,
 				389B93BC1FD864FF00C33BBA /* OAuth2.framework in Frameworks */,
 				389B93BD1FD864FF00C33BBA /* RxRealm.framework in Frameworks */,
@@ -139,6 +189,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BA98BC1FDF0706008297AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BA98C51FDF0706008297AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BA98C91FDF0706008297AA /* baggage_journey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +241,8 @@
 				389B93621FD83F3500C33BBA /* baggage */,
 				389B93771FD83F3500C33BBA /* baggageTests */,
 				389B93821FD83F3500C33BBA /* baggageUITests */,
+				38BA98C11FDF0706008297AA /* baggage-journey */,
+				38BA98CE1FDF0706008297AA /* baggage-journeyTests */,
 				389B93611FD83F3500C33BBA /* Products */,
 				389B93911FD864AB00C33BBA /* Frameworks */,
 			);
@@ -187,6 +254,8 @@
 				389B93601FD83F3500C33BBA /* baggage.app */,
 				389B93741FD83F3500C33BBA /* baggageTests.xctest */,
 				389B937F1FD83F3500C33BBA /* baggageUITests.xctest */,
+				38BA98C01FDF0706008297AA /* baggage_journey.framework */,
+				38BA98C81FDF0706008297AA /* baggage-journeyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -255,7 +324,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		38BA98C11FDF0706008297AA /* baggage-journey */ = {
+			isa = PBXGroup;
+			children = (
+				38BA98C21FDF0706008297AA /* baggage_journey.h */,
+				38BA98C31FDF0706008297AA /* Info.plist */,
+			);
+			path = "baggage-journey";
+			sourceTree = "<group>";
+		};
+		38BA98CE1FDF0706008297AA /* baggage-journeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				38BA98CF1FDF0706008297AA /* baggage_journeyTests.swift */,
+				38BA98D11FDF0706008297AA /* Info.plist */,
+			);
+			path = "baggage-journeyTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		38BA98BD1FDF0706008297AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BA98D21FDF0706008297AA /* baggage_journey.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		389B935F1FD83F3500C33BBA /* baggage */ = {
@@ -266,10 +364,12 @@
 				389B935D1FD83F3500C33BBA /* Frameworks */,
 				389B935E1FD83F3500C33BBA /* Resources */,
 				389B93C01FD8657F00C33BBA /* ShellScript */,
+				38BA98D61FDF0706008297AA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				38BA98D41FDF0706008297AA /* PBXTargetDependency */,
 			);
 			name = baggage;
 			productName = baggage;
@@ -312,6 +412,43 @@
 			productReference = 389B937F1FD83F3500C33BBA /* baggageUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		38BA98BF1FDF0706008297AA /* baggage-journey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BA98DC1FDF0706008297AA /* Build configuration list for PBXNativeTarget "baggage-journey" */;
+			buildPhases = (
+				38BA98BB1FDF0706008297AA /* Sources */,
+				38BA98BC1FDF0706008297AA /* Frameworks */,
+				38BA98BD1FDF0706008297AA /* Headers */,
+				38BA98BE1FDF0706008297AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "baggage-journey";
+			productName = "baggage-journey";
+			productReference = 38BA98C01FDF0706008297AA /* baggage_journey.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		38BA98C71FDF0706008297AA /* baggage-journeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BA98DD1FDF0706008297AA /* Build configuration list for PBXNativeTarget "baggage-journeyTests" */;
+			buildPhases = (
+				38BA98C41FDF0706008297AA /* Sources */,
+				38BA98C51FDF0706008297AA /* Frameworks */,
+				38BA98C61FDF0706008297AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38BA98CB1FDF0706008297AA /* PBXTargetDependency */,
+				38BA98CD1FDF0706008297AA /* PBXTargetDependency */,
+			);
+			name = "baggage-journeyTests";
+			productName = "baggage-journeyTests";
+			productReference = 38BA98C81FDF0706008297AA /* baggage-journeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -336,6 +473,15 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 389B935F1FD83F3500C33BBA;
 					};
+					38BA98BF1FDF0706008297AA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					38BA98C71FDF0706008297AA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 389B935F1FD83F3500C33BBA;
+					};
 				};
 			};
 			buildConfigurationList = 389B935B1FD83F3500C33BBA /* Build configuration list for PBXProject "baggage" */;
@@ -354,6 +500,8 @@
 				389B935F1FD83F3500C33BBA /* baggage */,
 				389B93731FD83F3500C33BBA /* baggageTests */,
 				389B937E1FD83F3500C33BBA /* baggageUITests */,
+				38BA98BF1FDF0706008297AA /* baggage-journey */,
+				38BA98C71FDF0706008297AA /* baggage-journeyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -377,6 +525,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		389B937D1FD83F3500C33BBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BA98BE1FDF0706008297AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BA98C61FDF0706008297AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,6 +613,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		38BA98BB1FDF0706008297AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BA98DE1FDF0715008297AA /* UINavigation+bag.swift in Sources */,
+				38BA98DF1FDF0715008297AA /* AppDelegate.swift in Sources */,
+				38BA98E01FDF0715008297AA /* BaggageController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BA98C41FDF0706008297AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BA98D01FDF0706008297AA /* baggage_journeyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -463,6 +643,21 @@
 			isa = PBXTargetDependency;
 			target = 389B935F1FD83F3500C33BBA /* baggage */;
 			targetProxy = 389B93801FD83F3500C33BBA /* PBXContainerItemProxy */;
+		};
+		38BA98CB1FDF0706008297AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38BA98BF1FDF0706008297AA /* baggage-journey */;
+			targetProxy = 38BA98CA1FDF0706008297AA /* PBXContainerItemProxy */;
+		};
+		38BA98CD1FDF0706008297AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 389B935F1FD83F3500C33BBA /* baggage */;
+			targetProxy = 38BA98CC1FDF0706008297AA /* PBXContainerItemProxy */;
+		};
+		38BA98D41FDF0706008297AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38BA98BF1FDF0706008297AA /* baggage-journey */;
+			targetProxy = 38BA98D31FDF0706008297AA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -596,6 +791,7 @@
 		389B93891FD83F3500C33BBA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -615,6 +811,7 @@
 		389B938A1FD83F3500C33BBA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -701,6 +898,82 @@
 			};
 			name = Release;
 		};
+		38BA98D81FDF0706008297AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "baggage-journey/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.latam.baggage-journey";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38BA98D91FDF0706008297AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "baggage-journey/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.latam.baggage-journey";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38BA98DA1FDF0706008297AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "baggage-journeyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.latam.baggage-journeyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baggage.app/baggage";
+			};
+			name = Debug;
+		};
+		38BA98DB1FDF0706008297AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "baggage-journeyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.latam.baggage-journeyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baggage.app/baggage";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -736,6 +1009,24 @@
 			buildConfigurations = (
 				389B938F1FD83F3500C33BBA /* Debug */,
 				389B93901FD83F3500C33BBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38BA98DC1FDF0706008297AA /* Build configuration list for PBXNativeTarget "baggage-journey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BA98D81FDF0706008297AA /* Debug */,
+				38BA98D91FDF0706008297AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38BA98DD1FDF0706008297AA /* Build configuration list for PBXNativeTarget "baggage-journeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BA98DA1FDF0706008297AA /* Debug */,
+				38BA98DB1FDF0706008297AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
