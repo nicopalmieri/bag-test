@@ -11,7 +11,7 @@
 		3852BEA91FDEC422006C51BE /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AB1FD864FF00C33BBA /* RxTest.framework */; };
 		3852BEB11FDEC8E8006C51BE /* UINavigation+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852BEB01FDEC8E8006C51BE /* UINavigation+bag.swift */; };
 		389B93641FD83F3500C33BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93631FD83F3500C33BBA /* AppDelegate.swift */; };
-		389B93661FD83F3500C33BBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93651FD83F3500C33BBA /* ViewController.swift */; };
+		389B93661FD83F3500C33BBA /* BaggageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93651FD83F3500C33BBA /* BaggageController.swift */; };
 		389B93691FD83F3500C33BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B93671FD83F3500C33BBA /* Main.storyboard */; };
 		389B936B1FD83F3500C33BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389B936A1FD83F3500C33BBA /* Assets.xcassets */; };
 		389B936E1FD83F3500C33BBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B936C1FD83F3500C33BBA /* LaunchScreen.storyboard */; };
@@ -61,7 +61,7 @@
 		3852BEB01FDEC8E8006C51BE /* UINavigation+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UINavigation+bag.swift"; path = "baggage/Extensions/UINavigation+bag.swift"; sourceTree = SOURCE_ROOT; };
 		389B93601FD83F3500C33BBA /* baggage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baggage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		389B93631FD83F3500C33BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		389B93651FD83F3500C33BBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		389B93651FD83F3500C33BBA /* BaggageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaggageController.swift; sourceTree = "<group>"; };
 		389B93681FD83F3500C33BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		389B936A1FD83F3500C33BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		389B936D1FD83F3500C33BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -198,7 +198,7 @@
 				3852BEAB1FDEC7EF006C51BE /* Managers */,
 				3852BEAA1FDEC7DC006C51BE /* Extensions */,
 				389B93631FD83F3500C33BBA /* AppDelegate.swift */,
-				389B93651FD83F3500C33BBA /* ViewController.swift */,
+				389B93651FD83F3500C33BBA /* BaggageController.swift */,
 				389B93671FD83F3500C33BBA /* Main.storyboard */,
 				389B936A1FD83F3500C33BBA /* Assets.xcassets */,
 				389B936C1FD83F3500C33BBA /* LaunchScreen.storyboard */,
@@ -429,7 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				389B93661FD83F3500C33BBA /* ViewController.swift in Sources */,
+				389B93661FD83F3500C33BBA /* BaggageController.swift in Sources */,
 				389B93641FD83F3500C33BBA /* AppDelegate.swift in Sources */,
 				3852BEB11FDEC8E8006C51BE /* UINavigation+bag.swift in Sources */,
 			);

@@ -21,7 +21,7 @@ class BaggageController: UIViewController {
     }
 
     public func showThaView() {
-        self.navigationController?.title = "Hallo MDF!"
+        navigationItem.title = "Feliz navida'"
         print("success!")
     }
 }
