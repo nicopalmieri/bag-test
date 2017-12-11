@@ -31,7 +31,6 @@ empty_count: error
 closing_brace: error
 opening_brace: error
 return_arrow_whitespace: error
-colon: error
 comma: error
 
 line_length: 1000
