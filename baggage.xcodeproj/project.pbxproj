@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3852BEA81FDEC410006C51BE /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A71FD864FF00C33BBA /* RxBlocking.framework */; };
+		3852BEA91FDEC422006C51BE /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AB1FD864FF00C33BBA /* RxTest.framework */; };
 		389B93641FD83F3500C33BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93631FD83F3500C33BBA /* AppDelegate.swift */; };
 		389B93661FD83F3500C33BBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93651FD83F3500C33BBA /* ViewController.swift */; };
 		389B93691FD83F3500C33BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B93671FD83F3500C33BBA /* Main.storyboard */; };
@@ -26,11 +28,9 @@
 		389B93B21FD864FF00C33BBA /* NSLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A41FD864FE00C33BBA /* NSLogger.framework */; };
 		389B93B31FD864FF00C33BBA /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A51FD864FF00C33BBA /* RxCocoa.framework */; };
 		389B93B41FD864FF00C33BBA /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A61FD864FF00C33BBA /* RxSwift.framework */; };
-		389B93B51FD864FF00C33BBA /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A71FD864FF00C33BBA /* RxBlocking.framework */; };
 		389B93B61FD864FF00C33BBA /* Usabilla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A81FD864FF00C33BBA /* Usabilla.framework */; };
 		389B93B71FD864FF00C33BBA /* Rswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A91FD864FF00C33BBA /* Rswift.framework */; };
 		389B93B81FD864FF00C33BBA /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AA1FD864FF00C33BBA /* Realm.framework */; };
-		389B93B91FD864FF00C33BBA /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AB1FD864FF00C33BBA /* RxTest.framework */; };
 		389B93BA1FD864FF00C33BBA /* Neon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AC1FD864FF00C33BBA /* Neon.framework */; };
 		389B93BB1FD864FF00C33BBA /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AD1FD864FF00C33BBA /* XCGLogger.framework */; };
 		389B93BC1FD864FF00C33BBA /* OAuth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AE1FD864FF00C33BBA /* OAuth2.framework */; };
@@ -112,11 +112,9 @@
 				389B93B21FD864FF00C33BBA /* NSLogger.framework in Frameworks */,
 				389B93B31FD864FF00C33BBA /* RxCocoa.framework in Frameworks */,
 				389B93B41FD864FF00C33BBA /* RxSwift.framework in Frameworks */,
-				389B93B51FD864FF00C33BBA /* RxBlocking.framework in Frameworks */,
 				389B93B61FD864FF00C33BBA /* Usabilla.framework in Frameworks */,
 				389B93B71FD864FF00C33BBA /* Rswift.framework in Frameworks */,
 				389B93B81FD864FF00C33BBA /* Realm.framework in Frameworks */,
-				389B93B91FD864FF00C33BBA /* RxTest.framework in Frameworks */,
 				389B93BA1FD864FF00C33BBA /* Neon.framework in Frameworks */,
 				389B93BB1FD864FF00C33BBA /* XCGLogger.framework in Frameworks */,
 				389B93BC1FD864FF00C33BBA /* OAuth2.framework in Frameworks */,
@@ -130,6 +128,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3852BEA91FDEC422006C51BE /* RxTest.framework in Frameworks */,
+				3852BEA81FDEC410006C51BE /* RxBlocking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +606,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = baggageTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.latam.baggageTests;
@@ -622,6 +626,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = baggageTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.latam.baggageTests;
