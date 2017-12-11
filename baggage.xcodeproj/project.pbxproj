@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3852BEA81FDEC410006C51BE /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A71FD864FF00C33BBA /* RxBlocking.framework */; };
 		3852BEA91FDEC422006C51BE /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AB1FD864FF00C33BBA /* RxTest.framework */; };
+		3852BEB11FDEC8E8006C51BE /* UINavigation+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852BEB01FDEC8E8006C51BE /* UINavigation+bag.swift */; };
 		389B93641FD83F3500C33BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93631FD83F3500C33BBA /* AppDelegate.swift */; };
 		389B93661FD83F3500C33BBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93651FD83F3500C33BBA /* ViewController.swift */; };
 		389B93691FD83F3500C33BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B93671FD83F3500C33BBA /* Main.storyboard */; };
@@ -57,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3852BEB01FDEC8E8006C51BE /* UINavigation+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UINavigation+bag.swift"; path = "baggage/Extensions/UINavigation+bag.swift"; sourceTree = SOURCE_ROOT; };
 		389B93601FD83F3500C33BBA /* baggage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baggage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		389B93631FD83F3500C33BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		389B93651FD83F3500C33BBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 		3852BEAA1FDEC7DC006C51BE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				3852BEB01FDEC8E8006C51BE /* UINavigation+bag.swift */,
 			);
 			name = Extensions;
 			path = "New Group";
@@ -428,6 +431,7 @@
 			files = (
 				389B93661FD83F3500C33BBA /* ViewController.swift in Sources */,
 				389B93641FD83F3500C33BBA /* AppDelegate.swift in Sources */,
+				3852BEB11FDEC8E8006C51BE /* UINavigation+bag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
