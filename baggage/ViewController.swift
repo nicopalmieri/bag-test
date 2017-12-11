@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  BaggageController.swift
 //  baggage
 //
 //  Created by Nicolas Palmieri on 12/6/17.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class BaggageController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        showThaView()
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +20,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    public func showThaView() {
+        self.navigationController?.title = "Hallo MDF!"
+        print("success!")
+    }
 }
 

@@ -143,6 +143,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3852BEAA1FDEC7DC006C51BE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		3852BEAB1FDEC7EF006C51BE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Managers;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		3852BEAC1FDEC80A006C51BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = "New Group2";
+			sourceTree = "<group>";
+		};
 		389B93571FD83F3500C33BBA = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +191,9 @@
 		389B93621FD83F3500C33BBA /* baggage */ = {
 			isa = PBXGroup;
 			children = (
+				3852BEAC1FDEC80A006C51BE /* Models */,
+				3852BEAB1FDEC7EF006C51BE /* Managers */,
+				3852BEAA1FDEC7DC006C51BE /* Extensions */,
 				389B93631FD83F3500C33BBA /* AppDelegate.swift */,
 				389B93651FD83F3500C33BBA /* ViewController.swift */,
 				389B93671FD83F3500C33BBA /* Main.storyboard */,
