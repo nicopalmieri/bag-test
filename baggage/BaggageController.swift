@@ -14,6 +14,10 @@ public final class BaggageController: UIViewController {
         showThaView()
     }
 
+    @IBAction func buttonTapped(_ sender: Any) {
+        print("WADDUP?!")
+    }
+
     public func showThaView() {
         navigationItem.title = "Feliz navida'"
         print("success!")
