@@ -14,11 +14,14 @@ public final class BaggageController: UIViewController {
     override public func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-        showThaView()
     }
 
-    public func showThaView() {
+    public func getControllerBy(identifier: String) -> UIViewController {
         print("success!")
+
+        let bundle1 = Bundle(for: BaseController.self)
+        let storyboard = UIStoryboard(name: "Main", bundle: bundle1)
+        return storyboard.instantiateViewController(withIdentifier: identifier) as! BaseController
     }
 
     public func createView() -> BaseController {
