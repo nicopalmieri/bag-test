@@ -22,7 +22,8 @@ public final class BaggageController: UIViewController {
     }
 
     public func createView() -> BaseController {
-        controller = BaseController(nibName: "BaseController", bundle: nil)
+        let bundle = Bundle(identifier: "com.latam.baggage")
+        controller = BaseController(nibName: "BaseController", bundle: bundle)
         return controller
     }
 
