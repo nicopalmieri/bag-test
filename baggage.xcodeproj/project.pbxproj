@@ -46,6 +46,7 @@
 		38BA98DE1FDF0715008297AA /* UINavigation+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852BEB01FDEC8E8006C51BE /* UINavigation+bag.swift */; };
 		38BA98DF1FDF0715008297AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93631FD83F3500C33BBA /* AppDelegate.swift */; };
 		38BA98E01FDF0715008297AA /* BaggageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93651FD83F3500C33BBA /* BaggageController.swift */; };
+		38BA98F11FE16FF6008297AA /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA98F01FE16FF6008297AA /* BaseController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +145,7 @@
 		38BA98C81FDF0706008297AA /* baggage-journeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "baggage-journeyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BA98CF1FDF0706008297AA /* baggage_journeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baggage_journeyTests.swift; sourceTree = "<group>"; };
 		38BA98D11FDF0706008297AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BA98F01FE16FF6008297AA /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,6 +269,7 @@
 				3852BEAB1FDEC7EF006C51BE /* Managers */,
 				3852BEAA1FDEC7DC006C51BE /* Extensions */,
 				389B93631FD83F3500C33BBA /* AppDelegate.swift */,
+				38BA98F01FE16FF6008297AA /* BaseController.swift */,
 				389B93651FD83F3500C33BBA /* BaggageController.swift */,
 				389B93671FD83F3500C33BBA /* Main.storyboard */,
 				389B936A1FD83F3500C33BBA /* Assets.xcassets */,
@@ -607,6 +610,7 @@
 			files = (
 				389B93661FD83F3500C33BBA /* BaggageController.swift in Sources */,
 				389B93641FD83F3500C33BBA /* AppDelegate.swift in Sources */,
+				38BA98F11FE16FF6008297AA /* BaseController.swift in Sources */,
 				3852BEB11FDEC8E8006C51BE /* UINavigation+bag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
