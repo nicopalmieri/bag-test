@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		383F3A561FE2CED500F00D48 /* ScrimView+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */; };
+		383F3A571FE2CED700F00D48 /* ScrimView+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */; };
 		3852BEA81FDEC410006C51BE /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A71FD864FF00C33BBA /* RxBlocking.framework */; };
 		3852BEA91FDEC422006C51BE /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AB1FD864FF00C33BBA /* RxTest.framework */; };
 		386590B31FE178AB00644A89 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA98F01FE16FF6008297AA /* LoginController.swift */; };
@@ -110,6 +112,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrimView+helper.swift"; sourceTree = "<group>"; };
 		386590B71FE2B70600644A89 /* Baggage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Baggage.swift; path = baggage/Managers/Baggage.swift; sourceTree = SOURCE_ROOT; };
 		386B41981FE2B9DC00FAB883 /* Thread+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Thread+bag.swift"; path = "baggage/Extensions/Thread+bag.swift"; sourceTree = SOURCE_ROOT; };
 		386B419B1FE2BA6800FAB883 /* UINavigation+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UINavigation+bag.swift"; path = "baggage/Extensions/UINavigation+bag.swift"; sourceTree = SOURCE_ROOT; };
@@ -249,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				386B419F1FE2BAF000FAB883 /* Dictionary+helper.swift */,
+				383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -641,6 +645,7 @@
 				38BA98F11FE16FF6008297AA /* LoginController.swift in Sources */,
 				386590B81FE2B70600644A89 /* Baggage.swift in Sources */,
 				386B41991FE2B9DC00FAB883 /* Thread+bag.swift in Sources */,
+				383F3A561FE2CED500F00D48 /* ScrimView+helper.swift in Sources */,
 				386B41A01FE2BAF000FAB883 /* Dictionary+helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -670,6 +675,7 @@
 				386590B31FE178AB00644A89 /* LoginController.swift in Sources */,
 				386B419A1FE2B9DC00FAB883 /* Thread+bag.swift in Sources */,
 				386590B91FE2B70600644A89 /* Baggage.swift in Sources */,
+				383F3A571FE2CED700F00D48 /* ScrimView+helper.swift in Sources */,
 				386B41A11FE2BAF000FAB883 /* Dictionary+helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
