@@ -27,6 +27,5 @@ public class BaseController: UIViewController {
     // MARK: - Private
     fileprivate func setupView() {
         title = "Base title goes here"
-        view.backgroundColor = UIColor.lightGray
     }
 }

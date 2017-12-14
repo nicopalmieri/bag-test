@@ -21,7 +21,7 @@ public final class BaggageController: UIViewController {
 
         let bundle1 = Bundle(for: BaseController.self)
         let storyboard = UIStoryboard(name: "Main", bundle: bundle1)
-        return storyboard.instantiateViewController(withIdentifier: identifier) as! BaseController
+        return storyboard.instantiateViewController(withIdentifier: identifier)
     }
 
     public func createView() -> BaseController {
@@ -33,6 +33,6 @@ public final class BaggageController: UIViewController {
     // MARK: - Private
     fileprivate func setupView() {
         title = "Just a title"
-        view.backgroundColor = UIColor.lightGray
+        view.backgroundColor = UIColor.clear
     }
 }
