@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		383F3A561FE2CED500F00D48 /* ScrimView+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */; };
 		383F3A571FE2CED700F00D48 /* ScrimView+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */; };
+		383F3A5B1FE2EA8900F00D48 /* Spurious.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A5A1FE2EA8900F00D48 /* Spurious.swift */; };
+		383F3A5D1FE2EAF900F00D48 /* EquatableValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A5C1FE2EAF900F00D48 /* EquatableValueType.swift */; };
+		383F3A601FE2EB3E00F00D48 /* SpuriousTestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A5F1FE2EB3E00F00D48 /* SpuriousTestable.swift */; };
+		383F3A631FE2EB7000F00D48 /* SpuriousManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A621FE2EB7000F00D48 /* SpuriousManager.swift */; };
 		3852BEA81FDEC410006C51BE /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A71FD864FF00C33BBA /* RxBlocking.framework */; };
 		3852BEA91FDEC422006C51BE /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AB1FD864FF00C33BBA /* RxTest.framework */; };
 		386590B31FE178AB00644A89 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA98F01FE16FF6008297AA /* LoginController.swift */; };
@@ -113,6 +117,10 @@
 
 /* Begin PBXFileReference section */
 		383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrimView+helper.swift"; sourceTree = "<group>"; };
+		383F3A5A1FE2EA8900F00D48 /* Spurious.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spurious.swift; sourceTree = "<group>"; };
+		383F3A5C1FE2EAF900F00D48 /* EquatableValueType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatableValueType.swift; sourceTree = "<group>"; };
+		383F3A5F1FE2EB3E00F00D48 /* SpuriousTestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpuriousTestable.swift; sourceTree = "<group>"; };
+		383F3A621FE2EB7000F00D48 /* SpuriousManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpuriousManager.swift; sourceTree = "<group>"; };
 		386590B71FE2B70600644A89 /* Baggage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Baggage.swift; path = baggage/Managers/Baggage.swift; sourceTree = SOURCE_ROOT; };
 		386B41981FE2B9DC00FAB883 /* Thread+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Thread+bag.swift"; path = "baggage/Extensions/Thread+bag.swift"; sourceTree = SOURCE_ROOT; };
 		386B419B1FE2BA6800FAB883 /* UINavigation+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UINavigation+bag.swift"; path = "baggage/Extensions/UINavigation+bag.swift"; sourceTree = SOURCE_ROOT; };
@@ -225,6 +233,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		383F3A581FE2E96500F00D48 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				383F3A591FE2EA7D00F00D48 /* Spurious */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		383F3A591FE2EA7D00F00D48 /* Spurious */ = {
+			isa = PBXGroup;
+			children = (
+				383F3A5A1FE2EA8900F00D48 /* Spurious.swift */,
+				383F3A5C1FE2EAF900F00D48 /* EquatableValueType.swift */,
+				383F3A5F1FE2EB3E00F00D48 /* SpuriousTestable.swift */,
+				383F3A621FE2EB7000F00D48 /* SpuriousManager.swift */,
+			);
+			path = Spurious;
+			sourceTree = "<group>";
+		};
 		386590BA1FE2B80700644A89 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -304,6 +331,7 @@
 				386590BA1FE2B80700644A89 /* Controllers */,
 				386B41A61FE2BBDF00FAB883 /* Extensions */,
 				386B419E1FE2BADD00FAB883 /* Helpers */,
+				383F3A581FE2E96500F00D48 /* Libraries */,
 			);
 			path = baggage;
 			sourceTree = "<group>";
@@ -640,9 +668,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383F3A631FE2EB7000F00D48 /* SpuriousManager.swift in Sources */,
 				386B419C1FE2BA6800FAB883 /* UINavigation+bag.swift in Sources */,
 				389B93641FD83F3500C33BBA /* AppDelegate.swift in Sources */,
 				38BA98F11FE16FF6008297AA /* LoginController.swift in Sources */,
+				383F3A601FE2EB3E00F00D48 /* SpuriousTestable.swift in Sources */,
+				383F3A5D1FE2EAF900F00D48 /* EquatableValueType.swift in Sources */,
+				383F3A5B1FE2EA8900F00D48 /* Spurious.swift in Sources */,
 				386590B81FE2B70600644A89 /* Baggage.swift in Sources */,
 				386B41991FE2B9DC00FAB883 /* Thread+bag.swift in Sources */,
 				383F3A561FE2CED500F00D48 /* ScrimView+helper.swift in Sources */,
