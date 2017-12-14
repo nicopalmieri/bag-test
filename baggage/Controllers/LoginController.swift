@@ -1,5 +1,5 @@
 //
-//  BaseController.swift
+//  LoginController.swift
 //  baggage
 //
 //  Created by Nicolas Palmieri on 12/13/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class BaseController: UIViewController {
+public class LoginController: UIViewController {
     override public func viewDidLoad() {
         super.viewDidLoad()
         setupView()
@@ -17,11 +17,6 @@ public class BaseController: UIViewController {
     // MARK: - Actions
     @IBAction func buttonTapped(_ sender: Any) {
         print("WADDUP?")
-    }
-
-    // MARK: - Public
-    public func createView() -> BaseController {
-        return self
     }
 
     // MARK: - Private
