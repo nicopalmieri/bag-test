@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3852BEA81FDEC410006C51BE /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A71FD864FF00C33BBA /* RxBlocking.framework */; };
 		3852BEA91FDEC422006C51BE /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AB1FD864FF00C33BBA /* RxTest.framework */; };
-		3852BEB11FDEC8E8006C51BE /* UINavigation+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852BEB01FDEC8E8006C51BE /* UINavigation+bag.swift */; };
 		386590B31FE178AB00644A89 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA98F01FE16FF6008297AA /* LoginController.swift */; };
 		386590B41FE1A7D000644A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B93671FD83F3500C33BBA /* Main.storyboard */; };
 		386590B51FE1A7DA00644A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B936C1FD83F3500C33BBA /* LaunchScreen.storyboard */; };
@@ -18,6 +17,10 @@
 		386590B91FE2B70600644A89 /* Baggage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386590B71FE2B70600644A89 /* Baggage.swift */; };
 		386B41991FE2B9DC00FAB883 /* Thread+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B41981FE2B9DC00FAB883 /* Thread+bag.swift */; };
 		386B419A1FE2B9DC00FAB883 /* Thread+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B41981FE2B9DC00FAB883 /* Thread+bag.swift */; };
+		386B419C1FE2BA6800FAB883 /* UINavigation+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B419B1FE2BA6800FAB883 /* UINavigation+bag.swift */; };
+		386B419D1FE2BA6800FAB883 /* UINavigation+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B419B1FE2BA6800FAB883 /* UINavigation+bag.swift */; };
+		386B41A01FE2BAF000FAB883 /* Dictionary+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B419F1FE2BAF000FAB883 /* Dictionary+helper.swift */; };
+		386B41A11FE2BAF000FAB883 /* Dictionary+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B419F1FE2BAF000FAB883 /* Dictionary+helper.swift */; };
 		389B93641FD83F3500C33BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93631FD83F3500C33BBA /* AppDelegate.swift */; };
 		389B93691FD83F3500C33BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B93671FD83F3500C33BBA /* Main.storyboard */; };
 		389B936B1FD83F3500C33BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389B936A1FD83F3500C33BBA /* Assets.xcassets */; };
@@ -50,7 +53,6 @@
 		38BA98D21FDF0706008297AA /* baggage_journey.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BA98C21FDF0706008297AA /* baggage_journey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38BA98D51FDF0706008297AA /* baggage_journey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BA98C01FDF0706008297AA /* baggage_journey.framework */; };
 		38BA98D71FDF0706008297AA /* baggage_journey.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38BA98C01FDF0706008297AA /* baggage_journey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		38BA98DE1FDF0715008297AA /* UINavigation+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852BEB01FDEC8E8006C51BE /* UINavigation+bag.swift */; };
 		38BA98DF1FDF0715008297AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93631FD83F3500C33BBA /* AppDelegate.swift */; };
 		38BA98F11FE16FF6008297AA /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA98F01FE16FF6008297AA /* LoginController.swift */; };
 /* End PBXBuildFile section */
@@ -108,9 +110,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3852BEB01FDEC8E8006C51BE /* UINavigation+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UINavigation+bag.swift"; path = "baggage/New Group/UINavigation+bag.swift"; sourceTree = SOURCE_ROOT; };
 		386590B71FE2B70600644A89 /* Baggage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Baggage.swift; path = baggage/Managers/Baggage.swift; sourceTree = SOURCE_ROOT; };
 		386B41981FE2B9DC00FAB883 /* Thread+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Thread+bag.swift"; path = "baggage/Extensions/Thread+bag.swift"; sourceTree = SOURCE_ROOT; };
+		386B419B1FE2BA6800FAB883 /* UINavigation+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UINavigation+bag.swift"; path = "baggage/Extensions/UINavigation+bag.swift"; sourceTree = SOURCE_ROOT; };
+		386B419F1FE2BAF000FAB883 /* Dictionary+helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+helper.swift"; sourceTree = "<group>"; };
 		389B93601FD83F3500C33BBA /* baggage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baggage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		389B93631FD83F3500C33BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		389B93681FD83F3500C33BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -235,21 +238,28 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		386B41961FE2B97600FAB883 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				3852BEB01FDEC8E8006C51BE /* UINavigation+bag.swift */,
-				386B41981FE2B9DC00FAB883 /* Thread+bag.swift */,
-			);
-			name = Extensions;
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		386B41971FE2B98100FAB883 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		386B419E1FE2BADD00FAB883 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				386B419F1FE2BAF000FAB883 /* Dictionary+helper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		386B41A61FE2BBDF00FAB883 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				386B41981FE2B9DC00FAB883 /* Thread+bag.swift */,
+				386B419B1FE2BA6800FAB883 /* UINavigation+bag.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		389B93571FD83F3500C33BBA = {
@@ -288,7 +298,8 @@
 				386B41971FE2B98100FAB883 /* Models */,
 				386B41951FE2B97000FAB883 /* Managers */,
 				386590BA1FE2B80700644A89 /* Controllers */,
-				386B41961FE2B97600FAB883 /* Extensions */,
+				386B41A61FE2BBDF00FAB883 /* Extensions */,
+				386B419E1FE2BADD00FAB883 /* Helpers */,
 			);
 			path = baggage;
 			sourceTree = "<group>";
@@ -625,11 +636,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386B419C1FE2BA6800FAB883 /* UINavigation+bag.swift in Sources */,
 				389B93641FD83F3500C33BBA /* AppDelegate.swift in Sources */,
 				38BA98F11FE16FF6008297AA /* LoginController.swift in Sources */,
 				386590B81FE2B70600644A89 /* Baggage.swift in Sources */,
 				386B41991FE2B9DC00FAB883 /* Thread+bag.swift in Sources */,
-				3852BEB11FDEC8E8006C51BE /* UINavigation+bag.swift in Sources */,
+				386B41A01FE2BAF000FAB883 /* Dictionary+helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,11 +665,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38BA98DE1FDF0715008297AA /* UINavigation+bag.swift in Sources */,
+				386B419D1FE2BA6800FAB883 /* UINavigation+bag.swift in Sources */,
 				38BA98DF1FDF0715008297AA /* AppDelegate.swift in Sources */,
 				386590B31FE178AB00644A89 /* LoginController.swift in Sources */,
 				386B419A1FE2B9DC00FAB883 /* Thread+bag.swift in Sources */,
 				386590B91FE2B70600644A89 /* Baggage.swift in Sources */,
+				386B41A11FE2BAF000FAB883 /* Dictionary+helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
