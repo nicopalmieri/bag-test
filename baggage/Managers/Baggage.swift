@@ -17,9 +17,9 @@ protocol BaggageManagerProtocol: class {
 public final class Baggage: NSObject, BaggageManagerProtocol {
 
     // here we implement 'em
-    func getControllerBy(identifier: String) -> UIViewController {
-        let bundle1 = Bundle(for: LoginController.self)
-        let storyboard = UIStoryboard(name: "Main", bundle: bundle1)
+    public func getControllerBy(identifier: String) -> UIViewController {
+        let bundle = Bundle(for: LoginController.self)
+        let storyboard = UIStoryboard(name: "Main", bundle: bundle)
         return storyboard.instantiateViewController(withIdentifier: identifier)
     }
 }
