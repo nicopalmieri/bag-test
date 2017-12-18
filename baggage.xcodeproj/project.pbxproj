@@ -30,6 +30,7 @@
 		388DAC011FE8432D00526896 /* EquatableValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A5C1FE2EAF900F00D48 /* EquatableValueType.swift */; };
 		388DAC021FE8433100526896 /* SpuriousTestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A5F1FE2EB3E00F00D48 /* SpuriousTestable.swift */; };
 		388DAC031FE8433400526896 /* SpuriousManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A621FE2EB7000F00D48 /* SpuriousManager.swift */; };
+		388DAC051FE84E2700526896 /* LoginControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388DAC041FE84E2700526896 /* LoginControllerTests.swift */; };
 		389B93641FD83F3500C33BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93631FD83F3500C33BBA /* AppDelegate.swift */; };
 		389B93691FD83F3500C33BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B93671FD83F3500C33BBA /* Main.storyboard */; };
 		389B936B1FD83F3500C33BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389B936A1FD83F3500C33BBA /* Assets.xcassets */; };
@@ -112,6 +113,7 @@
 		387C51251FE2EFF00028F9E7 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		388DABFA1FE840CC00526896 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		388DABFC1FE840DF00526896 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		388DAC041FE84E2700526896 /* LoginControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginControllerTests.swift; sourceTree = "<group>"; };
 		389B93601FD83F3500C33BBA /* baggage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baggage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		389B93631FD83F3500C33BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		389B93681FD83F3500C33BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -312,6 +314,7 @@
 				383F3A581FE2E96500F00D48 /* Libraries */,
 				389B93781FD83F3500C33BBA /* baggageTests.swift */,
 				389B937A1FD83F3500C33BBA /* Info.plist */,
+				388DAC041FE84E2700526896 /* LoginControllerTests.swift */,
 			);
 			path = baggageTests;
 			sourceTree = "<group>";
@@ -661,6 +664,7 @@
 				388DAC011FE8432D00526896 /* EquatableValueType.swift in Sources */,
 				388DAC021FE8433100526896 /* SpuriousTestable.swift in Sources */,
 				388DAC031FE8433400526896 /* SpuriousManager.swift in Sources */,
+				388DAC051FE84E2700526896 /* LoginControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
