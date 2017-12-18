@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		383340A11FE85E7900B6CBD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B93671FD83F3500C33BBA /* Main.storyboard */; };
+		383340A21FE85E7900B6CBD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389B936A1FD83F3500C33BBA /* Assets.xcassets */; };
+		383340A31FE85E8200B6CBD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B936C1FD83F3500C33BBA /* LaunchScreen.storyboard */; };
 		383F3A561FE2CED500F00D48 /* ScrimView+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */; };
 		383F3A571FE2CED700F00D48 /* ScrimView+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */; };
-		3852BEA81FDEC410006C51BE /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A71FD864FF00C33BBA /* RxBlocking.framework */; };
-		3852BEA91FDEC422006C51BE /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AB1FD864FF00C33BBA /* RxTest.framework */; };
+		3861EB4D1FE864D7007F2C3A /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388DABFA1FE840CC00526896 /* Quick.framework */; };
 		386590B31FE178AB00644A89 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA98F01FE16FF6008297AA /* LoginController.swift */; };
 		386590B41FE1A7D000644A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B93671FD83F3500C33BBA /* Main.storyboard */; };
 		386590B51FE1A7DA00644A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B936C1FD83F3500C33BBA /* LaunchScreen.storyboard */; };
@@ -24,13 +26,11 @@
 		386B41A01FE2BAF000FAB883 /* Dictionary+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B419F1FE2BAF000FAB883 /* Dictionary+helper.swift */; };
 		386B41A11FE2BAF000FAB883 /* Dictionary+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B419F1FE2BAF000FAB883 /* Dictionary+helper.swift */; };
 		387C51261FE2EFF00028F9E7 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387C51251FE2EFF00028F9E7 /* Configuration.swift */; };
-		388DABFE1FE8419300526896 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388DABFC1FE840DF00526896 /* Nimble.framework */; };
-		388DABFF1FE8419300526896 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388DABFA1FE840CC00526896 /* Quick.framework */; };
+		38839C221FE85C2A009DC2A0 /* LoginControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388DAC041FE84E2700526896 /* LoginControllerTests.swift */; };
 		388DAC001FE8432800526896 /* Spurious.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A5A1FE2EA8900F00D48 /* Spurious.swift */; };
 		388DAC011FE8432D00526896 /* EquatableValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A5C1FE2EAF900F00D48 /* EquatableValueType.swift */; };
 		388DAC021FE8433100526896 /* SpuriousTestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A5F1FE2EB3E00F00D48 /* SpuriousTestable.swift */; };
 		388DAC031FE8433400526896 /* SpuriousManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A621FE2EB7000F00D48 /* SpuriousManager.swift */; };
-		388DAC051FE84E2700526896 /* LoginControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388DAC041FE84E2700526896 /* LoginControllerTests.swift */; };
 		389B93641FD83F3500C33BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93631FD83F3500C33BBA /* AppDelegate.swift */; };
 		389B93691FD83F3500C33BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B93671FD83F3500C33BBA /* Main.storyboard */; };
 		389B936B1FD83F3500C33BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389B936A1FD83F3500C33BBA /* Assets.xcassets */; };
@@ -101,6 +101,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		383340A41FE85F8000B6CBD1 /* iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iOS; path = Carthage/Build/iOS; sourceTree = "<group>"; };
 		383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrimView+helper.swift"; sourceTree = "<group>"; };
 		383F3A5A1FE2EA8900F00D48 /* Spurious.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spurious.swift; sourceTree = "<group>"; };
 		383F3A5C1FE2EAF900F00D48 /* EquatableValueType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatableValueType.swift; sourceTree = "<group>"; };
@@ -173,10 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				388DABFE1FE8419300526896 /* Nimble.framework in Frameworks */,
-				388DABFF1FE8419300526896 /* Quick.framework in Frameworks */,
-				3852BEA91FDEC422006C51BE /* RxTest.framework in Frameworks */,
-				3852BEA81FDEC410006C51BE /* RxBlocking.framework in Frameworks */,
+				3861EB4D1FE864D7007F2C3A /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +329,7 @@
 		389B93911FD864AB00C33BBA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				383340A41FE85F8000B6CBD1 /* iOS */,
 				388DABFC1FE840DF00526896 /* Nimble.framework */,
 				388DABFA1FE840CC00526896 /* Quick.framework */,
 				389B93AC1FD864FF00C33BBA /* Neon.framework */,
@@ -558,6 +557,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383340A31FE85E8200B6CBD1 /* LaunchScreen.storyboard in Resources */,
+				383340A11FE85E7900B6CBD1 /* Main.storyboard in Resources */,
+				383340A21FE85E7900B6CBD1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,7 +666,7 @@
 				388DAC011FE8432D00526896 /* EquatableValueType.swift in Sources */,
 				388DAC021FE8433100526896 /* SpuriousTestable.swift in Sources */,
 				388DAC031FE8433400526896 /* SpuriousManager.swift in Sources */,
-				388DAC051FE84E2700526896 /* LoginControllerTests.swift in Sources */,
+				38839C221FE85C2A009DC2A0 /* LoginControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
