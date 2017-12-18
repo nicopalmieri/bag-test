@@ -28,6 +28,8 @@
 		386B41A01FE2BAF000FAB883 /* Dictionary+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B419F1FE2BAF000FAB883 /* Dictionary+helper.swift */; };
 		386B41A11FE2BAF000FAB883 /* Dictionary+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B419F1FE2BAF000FAB883 /* Dictionary+helper.swift */; };
 		387C51261FE2EFF00028F9E7 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387C51251FE2EFF00028F9E7 /* Configuration.swift */; };
+		388DABFB1FE840CD00526896 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388DABFA1FE840CC00526896 /* Quick.framework */; };
+		388DABFD1FE840DF00526896 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388DABFC1FE840DF00526896 /* Nimble.framework */; };
 		389B93641FD83F3500C33BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93631FD83F3500C33BBA /* AppDelegate.swift */; };
 		389B93691FD83F3500C33BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B93671FD83F3500C33BBA /* Main.storyboard */; };
 		389B936B1FD83F3500C33BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389B936A1FD83F3500C33BBA /* Assets.xcassets */; };
@@ -36,25 +38,6 @@
 		389B93841FD83F3500C33BBA /* baggageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93831FD83F3500C33BBA /* baggageUITests.swift */; };
 		389B93931FD864AB00C33BBA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93921FD864AB00C33BBA /* Alamofire.framework */; };
 		389B93951FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93941FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework */; };
-		389B93971FD864B400C33BBA /* DateTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93961FD864B400C33BBA /* DateTools.framework */; };
-		389B93991FD864BA00C33BBA /* EasyTipView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93981FD864BA00C33BBA /* EasyTipView.framework */; };
-		389B939B1FD864BF00C33BBA /* Gloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B939A1FD864BF00C33BBA /* Gloss.framework */; };
-		389B939D1FD864C400C33BBA /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B939C1FD864C300C33BBA /* HockeySDK.framework */; };
-		389B939F1FD864C800C33BBA /* JWTDecode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B939E1FD864C800C33BBA /* JWTDecode.framework */; };
-		389B93A11FD864CC00C33BBA /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A01FD864CC00C33BBA /* Kingfisher.framework */; };
-		389B93A31FD864D400C33BBA /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A21FD864D400C33BBA /* Lottie.framework */; };
-		389B93B21FD864FF00C33BBA /* NSLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A41FD864FE00C33BBA /* NSLogger.framework */; };
-		389B93B31FD864FF00C33BBA /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A51FD864FF00C33BBA /* RxCocoa.framework */; };
-		389B93B41FD864FF00C33BBA /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A61FD864FF00C33BBA /* RxSwift.framework */; };
-		389B93B61FD864FF00C33BBA /* Usabilla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A81FD864FF00C33BBA /* Usabilla.framework */; };
-		389B93B71FD864FF00C33BBA /* Rswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93A91FD864FF00C33BBA /* Rswift.framework */; };
-		389B93B81FD864FF00C33BBA /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AA1FD864FF00C33BBA /* Realm.framework */; };
-		389B93BA1FD864FF00C33BBA /* Neon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AC1FD864FF00C33BBA /* Neon.framework */; };
-		389B93BB1FD864FF00C33BBA /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AD1FD864FF00C33BBA /* XCGLogger.framework */; };
-		389B93BC1FD864FF00C33BBA /* OAuth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AE1FD864FF00C33BBA /* OAuth2.framework */; };
-		389B93BD1FD864FF00C33BBA /* RxRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93AF1FD864FF00C33BBA /* RxRealm.framework */; };
-		389B93BE1FD864FF00C33BBA /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93B01FD864FF00C33BBA /* RealmSwift.framework */; };
-		389B93BF1FD864FF00C33BBA /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93B11FD864FF00C33BBA /* SwiftDate.framework */; };
 		38BA98C91FDF0706008297AA /* baggage_journey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BA98C01FDF0706008297AA /* baggage_journey.framework */; };
 		38BA98D01FDF0706008297AA /* baggage_journeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA98CF1FDF0706008297AA /* baggage_journeyTests.swift */; };
 		38BA98D21FDF0706008297AA /* baggage_journey.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BA98C21FDF0706008297AA /* baggage_journey.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -127,6 +110,8 @@
 		386B419B1FE2BA6800FAB883 /* UINavigation+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UINavigation+bag.swift"; path = "baggage/Extensions/UINavigation+bag.swift"; sourceTree = SOURCE_ROOT; };
 		386B419F1FE2BAF000FAB883 /* Dictionary+helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+helper.swift"; sourceTree = "<group>"; };
 		387C51251FE2EFF00028F9E7 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		388DABFA1FE840CC00526896 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		388DABFC1FE840DF00526896 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		389B93601FD83F3500C33BBA /* baggage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baggage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		389B93631FD83F3500C33BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		389B93681FD83F3500C33BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -176,28 +161,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388DABFD1FE840DF00526896 /* Nimble.framework in Frameworks */,
+				388DABFB1FE840CD00526896 /* Quick.framework in Frameworks */,
 				389B93931FD864AB00C33BBA /* Alamofire.framework in Frameworks */,
 				389B93951FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework in Frameworks */,
-				389B93971FD864B400C33BBA /* DateTools.framework in Frameworks */,
-				389B93991FD864BA00C33BBA /* EasyTipView.framework in Frameworks */,
-				389B939B1FD864BF00C33BBA /* Gloss.framework in Frameworks */,
-				389B939D1FD864C400C33BBA /* HockeySDK.framework in Frameworks */,
-				389B939F1FD864C800C33BBA /* JWTDecode.framework in Frameworks */,
-				389B93A11FD864CC00C33BBA /* Kingfisher.framework in Frameworks */,
-				389B93A31FD864D400C33BBA /* Lottie.framework in Frameworks */,
-				389B93B21FD864FF00C33BBA /* NSLogger.framework in Frameworks */,
-				389B93B31FD864FF00C33BBA /* RxCocoa.framework in Frameworks */,
-				389B93B41FD864FF00C33BBA /* RxSwift.framework in Frameworks */,
-				389B93B61FD864FF00C33BBA /* Usabilla.framework in Frameworks */,
-				389B93B71FD864FF00C33BBA /* Rswift.framework in Frameworks */,
-				389B93B81FD864FF00C33BBA /* Realm.framework in Frameworks */,
-				389B93BA1FD864FF00C33BBA /* Neon.framework in Frameworks */,
 				38BA98D51FDF0706008297AA /* baggage_journey.framework in Frameworks */,
-				389B93BB1FD864FF00C33BBA /* XCGLogger.framework in Frameworks */,
-				389B93BC1FD864FF00C33BBA /* OAuth2.framework in Frameworks */,
-				389B93BD1FD864FF00C33BBA /* RxRealm.framework in Frameworks */,
-				389B93BE1FD864FF00C33BBA /* RealmSwift.framework in Frameworks */,
-				389B93BF1FD864FF00C33BBA /* SwiftDate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +328,8 @@
 		389B93911FD864AB00C33BBA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				388DABFC1FE840DF00526896 /* Nimble.framework */,
+				388DABFA1FE840CC00526896 /* Quick.framework */,
 				389B93AC1FD864FF00C33BBA /* Neon.framework */,
 				389B93A41FD864FE00C33BBA /* NSLogger.framework */,
 				389B93AE1FD864FF00C33BBA /* OAuth2.framework */,

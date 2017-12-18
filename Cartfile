@@ -1,5 +1,7 @@
 github "Alamofire/Alamofire" ~> 4.5
 github "Alamofire/AlamofireNetworkActivityIndicator" ~> 2.2
+github "Quick/Quick"
+github "Quick/Nimble"
 #github "realm/realm-cocoa" ~> 2.10
 #github "ReactiveX/RxSwift" ~> 3.6
 #github "RxSwiftCommunity/RxRealm" ~> 0.5

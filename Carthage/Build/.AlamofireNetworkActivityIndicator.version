@@ -1,9 +1,18 @@
 {
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
   "commitish" : "2.2.0",
   "iOS" : [
     {
       "name" : "AlamofireNetworkActivityIndicator",
-      "hash" : "5569e77259fa68794083b8dd3a973ff9bb05da7347f82b7124e9a89ee9befee6"
+      "hash" : "d36e8a8c53976cf5b16c3782443a707789564cf31c1a7db10589e8eb897ad690"
     }
   ]
 }
