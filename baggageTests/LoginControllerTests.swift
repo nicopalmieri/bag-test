@@ -14,18 +14,26 @@ import Nimble
 class LoginControllerTests: QuickSpec {
 
     override func spec() {
-
         describe("viewDidLoad") {
+
+            var controller = LoginController()
+            beforeEach {
+                // anything needed as pre-setup
+            }
 
             // if we have a controller with identifier
             context("after being initialized") {
                 let identifier = "LoginController"
                 let bundle = Bundle(for: LoginController.self)
                 let storyboard = UIStoryboard(name: "Main", bundle: bundle)
-                let controller = storyboard.instantiateViewController(withIdentifier: identifier)
+                controller = storyboard.instantiateViewController(withIdentifier: identifier) as! LoginController
 
-                it("shouldn't have an identifier") {
+                it("shouldn't be nil") {
                     expect(controller).toNot(beNil())
+                }
+
+                it("should have an identifier") {
+                    expect(LoginController.identifier()).to(equal("LoginController"))
                 }
             }
         }

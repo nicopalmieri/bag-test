@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		382C0C881FE946DE001784DA /* UI+Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C0C871FE946DE001784DA /* UI+Identifiers.swift */; };
+		382C0C891FE946E6001784DA /* UI+Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C0C871FE946DE001784DA /* UI+Identifiers.swift */; };
+		382C0C8A1FE94DB7001784DA /* UI+Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C0C871FE946DE001784DA /* UI+Identifiers.swift */; };
 		383F3A561FE2CED500F00D48 /* ScrimView+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */; };
 		383F3A571FE2CED700F00D48 /* ScrimView+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */; };
 		383F53F31FE8B15500A7B9BE /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388DABFA1FE840CC00526896 /* Quick.framework */; };
@@ -101,6 +104,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		382C0C871FE946DE001784DA /* UI+Identifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI+Identifiers.swift"; sourceTree = "<group>"; };
 		383340A41FE85F8000B6CBD1 /* iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iOS; path = Carthage/Build/iOS; sourceTree = "<group>"; };
 		383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrimView+helper.swift"; sourceTree = "<group>"; };
 		383F3A5A1FE2EA8900F00D48 /* Spurious.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spurious.swift; sourceTree = "<group>"; };
@@ -242,6 +246,7 @@
 			children = (
 				386B41981FE2B9DC00FAB883 /* Thread+bag.swift */,
 				386B419B1FE2BA6800FAB883 /* UINavigation+bag.swift */,
+				382C0C871FE946DE001784DA /* UI+Identifiers.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -585,6 +590,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				382C0C881FE946DE001784DA /* UI+Identifiers.swift in Sources */,
 				386B419C1FE2BA6800FAB883 /* UINavigation+bag.swift in Sources */,
 				389B93641FD83F3500C33BBA /* AppDelegate.swift in Sources */,
 				38BA98F11FE16FF6008297AA /* LoginController.swift in Sources */,
@@ -601,6 +607,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3861EB4F1FE8AE22007F2C3A /* baggageTests.swift in Sources */,
+				382C0C8A1FE94DB7001784DA /* UI+Identifiers.swift in Sources */,
 				388DAC001FE8432800526896 /* Spurious.swift in Sources */,
 				388DAC011FE8432D00526896 /* EquatableValueType.swift in Sources */,
 				388DAC021FE8433100526896 /* SpuriousTestable.swift in Sources */,
@@ -627,6 +634,7 @@
 				386B419A1FE2B9DC00FAB883 /* Thread+bag.swift in Sources */,
 				386590B91FE2B70600644A89 /* Baggage.swift in Sources */,
 				383F3A571FE2CED700F00D48 /* ScrimView+helper.swift in Sources */,
+				382C0C891FE946E6001784DA /* UI+Identifiers.swift in Sources */,
 				386B41A11FE2BAF000FAB883 /* Dictionary+helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
