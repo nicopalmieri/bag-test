@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		383340A11FE85E7900B6CBD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B93671FD83F3500C33BBA /* Main.storyboard */; };
-		383340A21FE85E7900B6CBD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389B936A1FD83F3500C33BBA /* Assets.xcassets */; };
-		383340A31FE85E8200B6CBD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B936C1FD83F3500C33BBA /* LaunchScreen.storyboard */; };
 		383F3A561FE2CED500F00D48 /* ScrimView+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */; };
 		383F3A571FE2CED700F00D48 /* ScrimView+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */; };
+		383F53F31FE8B15500A7B9BE /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388DABFA1FE840CC00526896 /* Quick.framework */; };
+		383F53F51FE8B46D00A7B9BE /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383F53F41FE8B46D00A7B9BE /* Nimble.framework */; };
+		383F53F61FE8B47D00A7B9BE /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383F53F41FE8B46D00A7B9BE /* Nimble.framework */; };
 		3861EB4D1FE864D7007F2C3A /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388DABFA1FE840CC00526896 /* Quick.framework */; };
+		3861EB4F1FE8AE22007F2C3A /* baggageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93781FD83F3500C33BBA /* baggageTests.swift */; };
 		386590B31FE178AB00644A89 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA98F01FE16FF6008297AA /* LoginController.swift */; };
 		386590B41FE1A7D000644A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B93671FD83F3500C33BBA /* Main.storyboard */; };
 		386590B51FE1A7DA00644A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B936C1FD83F3500C33BBA /* LaunchScreen.storyboard */; };
@@ -35,7 +36,6 @@
 		389B93691FD83F3500C33BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B93671FD83F3500C33BBA /* Main.storyboard */; };
 		389B936B1FD83F3500C33BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389B936A1FD83F3500C33BBA /* Assets.xcassets */; };
 		389B936E1FD83F3500C33BBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B936C1FD83F3500C33BBA /* LaunchScreen.storyboard */; };
-		389B93791FD83F3500C33BBA /* baggageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93781FD83F3500C33BBA /* baggageTests.swift */; };
 		389B93841FD83F3500C33BBA /* baggageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93831FD83F3500C33BBA /* baggageUITests.swift */; };
 		389B93931FD864AB00C33BBA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93921FD864AB00C33BBA /* Alamofire.framework */; };
 		389B93951FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93941FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework */; };
@@ -107,13 +107,13 @@
 		383F3A5C1FE2EAF900F00D48 /* EquatableValueType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatableValueType.swift; sourceTree = "<group>"; };
 		383F3A5F1FE2EB3E00F00D48 /* SpuriousTestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpuriousTestable.swift; sourceTree = "<group>"; };
 		383F3A621FE2EB7000F00D48 /* SpuriousManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpuriousManager.swift; sourceTree = "<group>"; };
+		383F53F41FE8B46D00A7B9BE /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		386590B71FE2B70600644A89 /* Baggage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Baggage.swift; path = baggage/Managers/Baggage.swift; sourceTree = SOURCE_ROOT; };
 		386B41981FE2B9DC00FAB883 /* Thread+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Thread+bag.swift"; path = "baggage/Extensions/Thread+bag.swift"; sourceTree = SOURCE_ROOT; };
 		386B419B1FE2BA6800FAB883 /* UINavigation+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UINavigation+bag.swift"; path = "baggage/Extensions/UINavigation+bag.swift"; sourceTree = SOURCE_ROOT; };
 		386B419F1FE2BAF000FAB883 /* Dictionary+helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+helper.swift"; sourceTree = "<group>"; };
 		387C51251FE2EFF00028F9E7 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		388DABFA1FE840CC00526896 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
-		388DABFC1FE840DF00526896 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		388DAC041FE84E2700526896 /* LoginControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginControllerTests.swift; sourceTree = "<group>"; };
 		389B93601FD83F3500C33BBA /* baggage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baggage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		389B93631FD83F3500C33BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,27 +129,6 @@
 		389B93851FD83F3500C33BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		389B93921FD864AB00C33BBA /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		389B93941FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireNetworkActivityIndicator.framework; path = Carthage/Build/iOS/AlamofireNetworkActivityIndicator.framework; sourceTree = "<group>"; };
-		389B93961FD864B400C33BBA /* DateTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DateTools.framework; path = Carthage/Build/iOS/DateTools.framework; sourceTree = "<group>"; };
-		389B93981FD864BA00C33BBA /* EasyTipView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyTipView.framework; path = Carthage/Build/iOS/EasyTipView.framework; sourceTree = "<group>"; };
-		389B939A1FD864BF00C33BBA /* Gloss.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gloss.framework; path = Carthage/Build/iOS/Gloss.framework; sourceTree = "<group>"; };
-		389B939C1FD864C300C33BBA /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = Carthage/Build/iOS/HockeySDK.framework; sourceTree = "<group>"; };
-		389B939E1FD864C800C33BBA /* JWTDecode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JWTDecode.framework; path = Carthage/Build/iOS/JWTDecode.framework; sourceTree = "<group>"; };
-		389B93A01FD864CC00C33BBA /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
-		389B93A21FD864D400C33BBA /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
-		389B93A41FD864FE00C33BBA /* NSLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSLogger.framework; path = Carthage/Build/iOS/NSLogger.framework; sourceTree = "<group>"; };
-		389B93A51FD864FF00C33BBA /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		389B93A61FD864FF00C33BBA /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		389B93A71FD864FF00C33BBA /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
-		389B93A81FD864FF00C33BBA /* Usabilla.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Usabilla.framework; path = Carthage/Build/iOS/Usabilla.framework; sourceTree = "<group>"; };
-		389B93A91FD864FF00C33BBA /* Rswift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Rswift.framework; path = Carthage/Build/iOS/Rswift.framework; sourceTree = "<group>"; };
-		389B93AA1FD864FF00C33BBA /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
-		389B93AB1FD864FF00C33BBA /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
-		389B93AC1FD864FF00C33BBA /* Neon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Neon.framework; path = Carthage/Build/iOS/Neon.framework; sourceTree = "<group>"; };
-		389B93AD1FD864FF00C33BBA /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/iOS/XCGLogger.framework; sourceTree = "<group>"; };
-		389B93AE1FD864FF00C33BBA /* OAuth2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuth2.framework; path = Carthage/Build/iOS/OAuth2.framework; sourceTree = "<group>"; };
-		389B93AF1FD864FF00C33BBA /* RxRealm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRealm.framework; path = Carthage/Build/iOS/RxRealm.framework; sourceTree = "<group>"; };
-		389B93B01FD864FF00C33BBA /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
-		389B93B11FD864FF00C33BBA /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = "<group>"; };
 		38BA98C01FDF0706008297AA /* baggage_journey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = baggage_journey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BA98C21FDF0706008297AA /* baggage_journey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baggage_journey.h; sourceTree = "<group>"; };
 		38BA98C31FDF0706008297AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -164,6 +143,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383F53F61FE8B47D00A7B9BE /* Nimble.framework in Frameworks */,
+				383F53F31FE8B15500A7B9BE /* Quick.framework in Frameworks */,
 				389B93931FD864AB00C33BBA /* Alamofire.framework in Frameworks */,
 				389B93951FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework in Frameworks */,
 				38BA98D51FDF0706008297AA /* baggage_journey.framework in Frameworks */,
@@ -174,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383F53F51FE8B46D00A7B9BE /* Nimble.framework in Frameworks */,
 				3861EB4D1FE864D7007F2C3A /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,30 +311,9 @@
 		389B93911FD864AB00C33BBA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				383F53F41FE8B46D00A7B9BE /* Nimble.framework */,
 				383340A41FE85F8000B6CBD1 /* iOS */,
-				388DABFC1FE840DF00526896 /* Nimble.framework */,
 				388DABFA1FE840CC00526896 /* Quick.framework */,
-				389B93AC1FD864FF00C33BBA /* Neon.framework */,
-				389B93A41FD864FE00C33BBA /* NSLogger.framework */,
-				389B93AE1FD864FF00C33BBA /* OAuth2.framework */,
-				389B93AA1FD864FF00C33BBA /* Realm.framework */,
-				389B93B01FD864FF00C33BBA /* RealmSwift.framework */,
-				389B93A91FD864FF00C33BBA /* Rswift.framework */,
-				389B93A71FD864FF00C33BBA /* RxBlocking.framework */,
-				389B93A51FD864FF00C33BBA /* RxCocoa.framework */,
-				389B93AF1FD864FF00C33BBA /* RxRealm.framework */,
-				389B93A61FD864FF00C33BBA /* RxSwift.framework */,
-				389B93AB1FD864FF00C33BBA /* RxTest.framework */,
-				389B93B11FD864FF00C33BBA /* SwiftDate.framework */,
-				389B93A81FD864FF00C33BBA /* Usabilla.framework */,
-				389B93AD1FD864FF00C33BBA /* XCGLogger.framework */,
-				389B93A21FD864D400C33BBA /* Lottie.framework */,
-				389B93A01FD864CC00C33BBA /* Kingfisher.framework */,
-				389B939E1FD864C800C33BBA /* JWTDecode.framework */,
-				389B939C1FD864C300C33BBA /* HockeySDK.framework */,
-				389B939A1FD864BF00C33BBA /* Gloss.framework */,
-				389B93981FD864BA00C33BBA /* EasyTipView.framework */,
-				389B93961FD864B400C33BBA /* DateTools.framework */,
 				389B93941FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework */,
 				389B93921FD864AB00C33BBA /* Alamofire.framework */,
 			);
@@ -557,9 +518,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				383340A31FE85E8200B6CBD1 /* LaunchScreen.storyboard in Resources */,
-				383340A11FE85E7900B6CBD1 /* Main.storyboard in Resources */,
-				383340A21FE85E7900B6CBD1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,27 +556,8 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AlamofireNetworkActivityIndicator.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/DateTools.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/EasyTipView.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Gloss.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/HockeySDK.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/JWTDecode.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Lottie.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/NSLogger.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Usabilla.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Rswift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Neon.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/XCGLogger.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/OAuth2.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxRealm.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SwiftDate.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
 			);
 			outputPaths = (
 			);
@@ -661,7 +600,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				389B93791FD83F3500C33BBA /* baggageTests.swift in Sources */,
+				3861EB4F1FE8AE22007F2C3A /* baggageTests.swift in Sources */,
 				388DAC001FE8432800526896 /* Spurious.swift in Sources */,
 				388DAC011FE8432D00526896 /* EquatableValueType.swift in Sources */,
 				388DAC021FE8433100526896 /* SpuriousTestable.swift in Sources */,
@@ -950,6 +889,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = baggageUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.latam.baggageUITests;
@@ -965,6 +908,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = baggageUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.latam.baggageUITests;

@@ -8,20 +8,20 @@
   "watchOS" : [
     {
       "name" : "Alamofire",
-      "hash" : "17a310a490bec3099512be2c5655873436e892a9c918d18875d31ce3a7449264"
+      "hash" : "4c6f64a0cb08e27699d0ae8cf82834879e048305124fcd2549633c68fd39e63f"
     }
   ],
   "tvOS" : [
     {
       "name" : "Alamofire",
-      "hash" : "f9f6903312a5e241199bb52d775dea879daee68e7c6a2584ba45d770775aa942"
+      "hash" : "38d81fe7a8b9e2b0768aa5266df0e7ae0f95678eece182bd86b21481cd6223d4"
     }
   ],
   "commitish" : "4.6.0",
   "iOS" : [
     {
       "name" : "Alamofire",
-      "hash" : "48fd3a00c8411f8cf0ae2ef58e442d7128421cb93a7793dc02f422eb1386af91"
+      "hash" : "aeabe89d11605e59276df42d59e07a5325a758f4066a86cd8fed64cfb3382ced"
     }
   ]
 }

@@ -20,12 +20,12 @@ class LoginControllerTests: QuickSpec {
             // if we have a controller with identifier
             context("after being initialized") {
                 let identifier = "LoginController"
-//                let bundle = Bundle(for: LoginController.self)
-//                let storyboard = UIStoryboard(name: "Main", bundle: bundle)
-//                let controller = storyboard.instantiateViewController(withIdentifier: identifier)
+                let bundle = Bundle(for: LoginController.self)
+                let storyboard = UIStoryboard(name: "Main", bundle: bundle)
+                let controller = storyboard.instantiateViewController(withIdentifier: identifier)
 
                 it("shouldn't have an identifier") {
-                    // expect(controller).toNot(beNil())
+                    expect(controller).toNot(beNil())
                 }
             }
         }

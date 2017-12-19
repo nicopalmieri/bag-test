@@ -2,7 +2,7 @@
   "Mac" : [
     {
       "name" : "Nimble",
-      "hash" : "9de725b8ce3e08e8338556f715b1e03baeb3fa32df5823bfd3c2ced24a383c09"
+      "hash" : "f0ba1a62d189c31edd42916ebd93a82c2ec95b967060d68c6d1bca718c076ab4"
     }
   ],
   "watchOS" : [
@@ -11,14 +11,14 @@
   "tvOS" : [
     {
       "name" : "Nimble",
-      "hash" : "7b39908add8c3f07d07d93a4ebed838325de734086ef857277e38e4d82f7c5fa"
+      "hash" : "4a092d5e228c734328534aad009a2d5fd5d4d993649ba21e541d109f831d6893"
     }
   ],
   "commitish" : "v7.0.3",
   "iOS" : [
     {
       "name" : "Nimble",
-      "hash" : "1436c54ad251d1c93b8fe4ae8af45439ea6da32b2e973146d97d56247bb7cd64"
+      "hash" : "09d0599327898b877993b396a3e8d72d2641f240629116356b8faace68e2c833"
     }
   ]
 }

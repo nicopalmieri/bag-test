@@ -1,9 +1,0 @@
-{
-  "commitish" : "1.0.2",
-  "iOS" : [
-    {
-      "name" : "EasyTipView",
-      "hash" : "e271f0b012457bcacf35485a2176b512c8f20c2d9164f05ea173750ca2437422"
-    }
-  ]
-}

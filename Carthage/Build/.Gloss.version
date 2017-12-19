@@ -1,9 +1,0 @@
-{
-  "commitish" : "1.2.4",
-  "iOS" : [
-    {
-      "name" : "Gloss",
-      "hash" : "7859bcd84d930caab15040929e41e0318cfc9a96019bf7764cc8b22375dc8ba2"
-    }
-  ]
-}

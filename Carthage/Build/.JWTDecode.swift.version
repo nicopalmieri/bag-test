@@ -1,9 +1,0 @@
-{
-  "commitish" : "2.1.1",
-  "iOS" : [
-    {
-      "name" : "JWTDecode",
-      "hash" : "e1d8c17aa78ce52790458c9cf1a8e993a09c0dccc2a0a42e6d3fe33fab1df827"
-    }
-  ]
-}
