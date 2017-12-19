@@ -1,5 +1,5 @@
 //
-//  Baggage.swift
+//  LatamBaggageTrackingiOSApp.swift
 //  baggage
 //
 //  Created by Nicolas Palmieri on 12/14/17.
@@ -14,7 +14,8 @@ protocol BaggageManagerProtocol: class {
     func getControllerBy(identifier: String) -> UIViewController
 }
 
-public final class Baggage: NSObject, BaggageManagerProtocol {
+/// iOSBundleSkeleton
+public final class LatamBaggageTrackingiOSApp: NSObject, BaggageManagerProtocol {
 
     // here we implement 'em
     public func getControllerBy(identifier: String) -> UIViewController {

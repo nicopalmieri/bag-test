@@ -14,11 +14,11 @@ import Nimble
 class LoginControllerTests: QuickSpec {
 
     override func spec() {
-        describe("viewDidLoad") {
+        var controller = UIViewController()
 
-            var controller = LoginController()
+        describe(".viewDidLoad") {
             beforeEach {
-                // anything needed as pre-setup
+                controller.viewDidLoad()
             }
 
             // if we have a controller with identifier
@@ -26,7 +26,7 @@ class LoginControllerTests: QuickSpec {
                 let identifier = "LoginController"
                 let bundle = Bundle(for: LoginController.self)
                 let storyboard = UIStoryboard(name: "Main", bundle: bundle)
-                controller = storyboard.instantiateViewController(withIdentifier: identifier) as! LoginController
+                controller = storyboard.instantiateViewController(withIdentifier: identifier)
 
                 it("shouldn't be nil") {
                     expect(controller).toNot(beNil())
@@ -38,12 +38,21 @@ class LoginControllerTests: QuickSpec {
             }
         }
 
-        describe("buttonTapped") {
+        describe(".buttonTapped") {
             // TUDO
         }
 
-        describe("setupView") {
-            // TUDO
+        describe(".setupView") {
+            beforeEach {
+                // let's call the setupView func which is called on the load
+                controller.viewDidLoad()
+            }
+
+            context("after being instantiated") {
+                it("should have a title") {
+                    expect(controller.title).to(equal("Base title goes here"))
+                }
+            }
         }
     }
 }

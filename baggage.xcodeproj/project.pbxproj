@@ -8,21 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		382C0C881FE946DE001784DA /* UI+Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C0C871FE946DE001784DA /* UI+Identifiers.swift */; };
-		382C0C891FE946E6001784DA /* UI+Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C0C871FE946DE001784DA /* UI+Identifiers.swift */; };
-		382C0C8A1FE94DB7001784DA /* UI+Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C0C871FE946DE001784DA /* UI+Identifiers.swift */; };
 		383F3A561FE2CED500F00D48 /* ScrimView+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */; };
 		383F3A571FE2CED700F00D48 /* ScrimView+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */; };
 		383F53F31FE8B15500A7B9BE /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388DABFA1FE840CC00526896 /* Quick.framework */; };
 		383F53F51FE8B46D00A7B9BE /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383F53F41FE8B46D00A7B9BE /* Nimble.framework */; };
 		383F53F61FE8B47D00A7B9BE /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383F53F41FE8B46D00A7B9BE /* Nimble.framework */; };
 		3861EB4D1FE864D7007F2C3A /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388DABFA1FE840CC00526896 /* Quick.framework */; };
-		3861EB4F1FE8AE22007F2C3A /* baggageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93781FD83F3500C33BBA /* baggageTests.swift */; };
 		386590B31FE178AB00644A89 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA98F01FE16FF6008297AA /* LoginController.swift */; };
 		386590B41FE1A7D000644A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B93671FD83F3500C33BBA /* Main.storyboard */; };
 		386590B51FE1A7DA00644A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B936C1FD83F3500C33BBA /* LaunchScreen.storyboard */; };
 		386590B61FE1A7E100644A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389B936A1FD83F3500C33BBA /* Assets.xcassets */; };
-		386590B81FE2B70600644A89 /* Baggage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386590B71FE2B70600644A89 /* Baggage.swift */; };
-		386590B91FE2B70600644A89 /* Baggage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386590B71FE2B70600644A89 /* Baggage.swift */; };
+		386590B81FE2B70600644A89 /* LatamBaggageTrackingiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386590B71FE2B70600644A89 /* LatamBaggageTrackingiOSApp.swift */; };
+		386590B91FE2B70600644A89 /* LatamBaggageTrackingiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386590B71FE2B70600644A89 /* LatamBaggageTrackingiOSApp.swift */; };
 		386B41991FE2B9DC00FAB883 /* Thread+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B41981FE2B9DC00FAB883 /* Thread+bag.swift */; };
 		386B419A1FE2B9DC00FAB883 /* Thread+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B41981FE2B9DC00FAB883 /* Thread+bag.swift */; };
 		386B419C1FE2BA6800FAB883 /* UINavigation+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B419B1FE2BA6800FAB883 /* UINavigation+bag.swift */; };
@@ -112,7 +109,7 @@
 		383F3A5F1FE2EB3E00F00D48 /* SpuriousTestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpuriousTestable.swift; sourceTree = "<group>"; };
 		383F3A621FE2EB7000F00D48 /* SpuriousManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpuriousManager.swift; sourceTree = "<group>"; };
 		383F53F41FE8B46D00A7B9BE /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		386590B71FE2B70600644A89 /* Baggage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Baggage.swift; path = baggage/Managers/Baggage.swift; sourceTree = SOURCE_ROOT; };
+		386590B71FE2B70600644A89 /* LatamBaggageTrackingiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LatamBaggageTrackingiOSApp.swift; path = baggage/Managers/LatamBaggageTrackingiOSApp.swift; sourceTree = SOURCE_ROOT; };
 		386B41981FE2B9DC00FAB883 /* Thread+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Thread+bag.swift"; path = "baggage/Extensions/Thread+bag.swift"; sourceTree = SOURCE_ROOT; };
 		386B419B1FE2BA6800FAB883 /* UINavigation+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UINavigation+bag.swift"; path = "baggage/Extensions/UINavigation+bag.swift"; sourceTree = SOURCE_ROOT; };
 		386B419F1FE2BAF000FAB883 /* Dictionary+helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+helper.swift"; sourceTree = "<group>"; };
@@ -126,7 +123,6 @@
 		389B936D1FD83F3500C33BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		389B936F1FD83F3500C33BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		389B93741FD83F3500C33BBA /* baggageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baggageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		389B93781FD83F3500C33BBA /* baggageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baggageTests.swift; sourceTree = "<group>"; };
 		389B937A1FD83F3500C33BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		389B937F1FD83F3500C33BBA /* baggageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baggageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		389B93831FD83F3500C33BBA /* baggageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baggageUITests.swift; sourceTree = "<group>"; };
@@ -219,7 +215,7 @@
 		386B41951FE2B97000FAB883 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				386590B71FE2B70600644A89 /* Baggage.swift */,
+				386590B71FE2B70600644A89 /* LatamBaggageTrackingiOSApp.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -297,7 +293,6 @@
 			isa = PBXGroup;
 			children = (
 				383F3A581FE2E96500F00D48 /* Libraries */,
-				389B93781FD83F3500C33BBA /* baggageTests.swift */,
 				389B937A1FD83F3500C33BBA /* Info.plist */,
 				388DAC041FE84E2700526896 /* LoginControllerTests.swift */,
 			);
@@ -595,7 +590,7 @@
 				389B93641FD83F3500C33BBA /* AppDelegate.swift in Sources */,
 				38BA98F11FE16FF6008297AA /* LoginController.swift in Sources */,
 				387C51261FE2EFF00028F9E7 /* Configuration.swift in Sources */,
-				386590B81FE2B70600644A89 /* Baggage.swift in Sources */,
+				386590B81FE2B70600644A89 /* LatamBaggageTrackingiOSApp.swift in Sources */,
 				386B41991FE2B9DC00FAB883 /* Thread+bag.swift in Sources */,
 				383F3A561FE2CED500F00D48 /* ScrimView+helper.swift in Sources */,
 				386B41A01FE2BAF000FAB883 /* Dictionary+helper.swift in Sources */,
@@ -606,8 +601,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3861EB4F1FE8AE22007F2C3A /* baggageTests.swift in Sources */,
-				382C0C8A1FE94DB7001784DA /* UI+Identifiers.swift in Sources */,
 				388DAC001FE8432800526896 /* Spurious.swift in Sources */,
 				388DAC011FE8432D00526896 /* EquatableValueType.swift in Sources */,
 				388DAC021FE8433100526896 /* SpuriousTestable.swift in Sources */,
@@ -632,9 +625,8 @@
 				38BA98DF1FDF0715008297AA /* AppDelegate.swift in Sources */,
 				386590B31FE178AB00644A89 /* LoginController.swift in Sources */,
 				386B419A1FE2B9DC00FAB883 /* Thread+bag.swift in Sources */,
-				386590B91FE2B70600644A89 /* Baggage.swift in Sources */,
+				386590B91FE2B70600644A89 /* LatamBaggageTrackingiOSApp.swift in Sources */,
 				383F3A571FE2CED700F00D48 /* ScrimView+helper.swift in Sources */,
-				382C0C891FE946E6001784DA /* UI+Identifiers.swift in Sources */,
 				386B41A11FE2BAF000FAB883 /* Dictionary+helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
