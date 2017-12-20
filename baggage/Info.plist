@@ -24,6 +24,20 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Latam_Sans_Black_Italic.ttf</string>
+		<string>Latam_Sans_Black.ttf</string>
+		<string>Latam_Sans_Bold_Italic.ttf</string>
+		<string>Latam_Sans_Bold.ttf</string>
+		<string>Latam_Sans_Extended.ttf</string>
+		<string>Latam_Sans_Hairline_Italic.ttf</string>
+		<string>Latam_Sans_Hairline.ttf</string>
+		<string>Latam_Sans_Light_Italic.ttf</string>
+		<string>Latam_Sans_Light.ttf</string>
+		<string>Latam_Sans_Regular_Italic.ttf</string>
+		<string>Latam_Sans_Regular.ttf</string>
+	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

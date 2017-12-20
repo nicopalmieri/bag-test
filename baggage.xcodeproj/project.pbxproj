@@ -10,9 +10,7 @@
 		382C0C881FE946DE001784DA /* UI+Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C0C871FE946DE001784DA /* UI+Identifiers.swift */; };
 		383F3A561FE2CED500F00D48 /* ScrimView+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */; };
 		383F3A571FE2CED700F00D48 /* ScrimView+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */; };
-		383F53F31FE8B15500A7B9BE /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388DABFA1FE840CC00526896 /* Quick.framework */; };
 		383F53F51FE8B46D00A7B9BE /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383F53F41FE8B46D00A7B9BE /* Nimble.framework */; };
-		383F53F61FE8B47D00A7B9BE /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383F53F41FE8B46D00A7B9BE /* Nimble.framework */; };
 		3861EB4D1FE864D7007F2C3A /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388DABFA1FE840CC00526896 /* Quick.framework */; };
 		386590B31FE178AB00644A89 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA98F01FE16FF6008297AA /* LoginController.swift */; };
 		386590B41FE1A7D000644A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B93671FD83F3500C33BBA /* Main.storyboard */; };
@@ -29,6 +27,20 @@
 		38738CA41FE9858D00D4BD8D /* UIFont+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38738CA31FE9858D00D4BD8D /* UIFont+bag.swift */; };
 		38738CA51FE9859700D4BD8D /* UI+Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C0C871FE946DE001784DA /* UI+Identifiers.swift */; };
 		38738CA61FE9859A00D4BD8D /* UIFont+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38738CA31FE9858D00D4BD8D /* UIFont+bag.swift */; };
+		38738CB41FEA99A100D4BD8D /* String+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38738CB31FEA99A100D4BD8D /* String+bag.swift */; };
+		38738CB51FEA9C4600D4BD8D /* String+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38738CB31FEA99A100D4BD8D /* String+bag.swift */; };
+		38738CB61FEA9C5600D4BD8D /* Latam_Sans_Black_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38738CAE1FEA96BD00D4BD8D /* Latam_Sans_Black_Italic.ttf */; };
+		38738CB71FEA9C5600D4BD8D /* Latam_Sans_Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38738CA91FEA96BC00D4BD8D /* Latam_Sans_Black.ttf */; };
+		38738CB81FEA9C5600D4BD8D /* Latam_Sans_Bold_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38738CB21FEA96BD00D4BD8D /* Latam_Sans_Bold_Italic.ttf */; };
+		38738CB91FEA9C5600D4BD8D /* Latam_Sans_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38738CAA1FEA96BD00D4BD8D /* Latam_Sans_Bold.ttf */; };
+		38738CBA1FEA9C5600D4BD8D /* Latam_Sans_Extended.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38738CAD1FEA96BD00D4BD8D /* Latam_Sans_Extended.ttf */; };
+		38738CBB1FEA9C5600D4BD8D /* Latam_Sans_Hairline_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38738CB11FEA96BD00D4BD8D /* Latam_Sans_Hairline_Italic.ttf */; };
+		38738CBC1FEA9C5600D4BD8D /* Latam_Sans_Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38738CA81FEA96BC00D4BD8D /* Latam_Sans_Hairline.ttf */; };
+		38738CBD1FEA9C5600D4BD8D /* Latam_Sans_Light_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38738CAF1FEA96BD00D4BD8D /* Latam_Sans_Light_Italic.ttf */; };
+		38738CBE1FEA9C5600D4BD8D /* Latam_Sans_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38738CAB1FEA96BD00D4BD8D /* Latam_Sans_Light.ttf */; };
+		38738CBF1FEA9C5600D4BD8D /* Latam_Sans_Regular_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38738CAC1FEA96BD00D4BD8D /* Latam_Sans_Regular_Italic.ttf */; };
+		38738CC01FEA9C5600D4BD8D /* Latam_Sans_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38738CB01FEA96BD00D4BD8D /* Latam_Sans_Regular.ttf */; };
+		38738CC21FEA9D8A00D4BD8D /* Date+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38738CC11FEA9D8A00D4BD8D /* Date+bag.swift */; };
 		387C51261FE2EFF00028F9E7 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387C51251FE2EFF00028F9E7 /* Configuration.swift */; };
 		38839C221FE85C2A009DC2A0 /* LoginControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388DAC041FE84E2700526896 /* LoginControllerTests.swift */; };
 		388DAC001FE8432800526896 /* Spurious.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A5A1FE2EA8900F00D48 /* Spurious.swift */; };
@@ -128,6 +140,8 @@
 		38738CB01FEA96BD00D4BD8D /* Latam_Sans_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Latam_Sans_Regular.ttf; sourceTree = "<group>"; };
 		38738CB11FEA96BD00D4BD8D /* Latam_Sans_Hairline_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Latam_Sans_Hairline_Italic.ttf; sourceTree = "<group>"; };
 		38738CB21FEA96BD00D4BD8D /* Latam_Sans_Bold_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Latam_Sans_Bold_Italic.ttf; sourceTree = "<group>"; };
+		38738CB31FEA99A100D4BD8D /* String+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+bag.swift"; sourceTree = "<group>"; };
+		38738CC11FEA9D8A00D4BD8D /* Date+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+bag.swift"; sourceTree = "<group>"; };
 		387C51251FE2EFF00028F9E7 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		388DABFA1FE840CC00526896 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		388DAC041FE84E2700526896 /* LoginControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginControllerTests.swift; sourceTree = "<group>"; };
@@ -158,8 +172,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				383F53F61FE8B47D00A7B9BE /* Nimble.framework in Frameworks */,
-				383F53F31FE8B15500A7B9BE /* Quick.framework in Frameworks */,
 				389B93931FD864AB00C33BBA /* Alamofire.framework in Frameworks */,
 				389B93951FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework in Frameworks */,
 				38BA98D51FDF0706008297AA /* baggage_journey.framework in Frameworks */,
@@ -259,6 +271,8 @@
 				386B419B1FE2BA6800FAB883 /* UINavigation+bag.swift */,
 				382C0C871FE946DE001784DA /* UI+Identifiers.swift */,
 				38738CA31FE9858D00D4BD8D /* UIFont+bag.swift */,
+				38738CB31FEA99A100D4BD8D /* String+bag.swift */,
+				38738CC11FEA9D8A00D4BD8D /* Date+bag.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -543,9 +557,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38738CB81FEA9C5600D4BD8D /* Latam_Sans_Bold_Italic.ttf in Resources */,
+				38738CBB1FEA9C5600D4BD8D /* Latam_Sans_Hairline_Italic.ttf in Resources */,
+				38738CB91FEA9C5600D4BD8D /* Latam_Sans_Bold.ttf in Resources */,
+				38738CBC1FEA9C5600D4BD8D /* Latam_Sans_Hairline.ttf in Resources */,
+				38738CBD1FEA9C5600D4BD8D /* Latam_Sans_Light_Italic.ttf in Resources */,
 				389B936E1FD83F3500C33BBA /* LaunchScreen.storyboard in Resources */,
+				38738CC01FEA9C5600D4BD8D /* Latam_Sans_Regular.ttf in Resources */,
+				38738CBE1FEA9C5600D4BD8D /* Latam_Sans_Light.ttf in Resources */,
 				389B936B1FD83F3500C33BBA /* Assets.xcassets in Resources */,
 				389B93691FD83F3500C33BBA /* Main.storyboard in Resources */,
+				38738CB61FEA9C5600D4BD8D /* Latam_Sans_Black_Italic.ttf in Resources */,
+				38738CBA1FEA9C5600D4BD8D /* Latam_Sans_Extended.ttf in Resources */,
+				38738CB71FEA9C5600D4BD8D /* Latam_Sans_Black.ttf in Resources */,
+				38738CBF1FEA9C5600D4BD8D /* Latam_Sans_Regular_Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,8 +646,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				382C0C881FE946DE001784DA /* UI+Identifiers.swift in Sources */,
+				38738CB41FEA99A100D4BD8D /* String+bag.swift in Sources */,
 				386B419C1FE2BA6800FAB883 /* UINavigation+bag.swift in Sources */,
 				389B93641FD83F3500C33BBA /* AppDelegate.swift in Sources */,
+				38738CC21FEA9D8A00D4BD8D /* Date+bag.swift in Sources */,
 				38738CA41FE9858D00D4BD8D /* UIFont+bag.swift in Sources */,
 				38BA98F11FE16FF6008297AA /* LoginController.swift in Sources */,
 				387C51261FE2EFF00028F9E7 /* Configuration.swift in Sources */,
@@ -660,6 +687,7 @@
 				386B419D1FE2BA6800FAB883 /* UINavigation+bag.swift in Sources */,
 				38BA98DF1FDF0715008297AA /* AppDelegate.swift in Sources */,
 				38738CA61FE9859A00D4BD8D /* UIFont+bag.swift in Sources */,
+				38738CB51FEA9C4600D4BD8D /* String+bag.swift in Sources */,
 				386590B31FE178AB00644A89 /* LoginController.swift in Sources */,
 				386B419A1FE2B9DC00FAB883 /* Thread+bag.swift in Sources */,
 				386590B91FE2B70600644A89 /* LatamBaggageTrackingiOSApp.swift in Sources */,

@@ -10,7 +10,7 @@ import UIKit
 
 extension UIFont {
 
-    private enum FontSize : CGFloat {
+    private enum FontSize: CGFloat {
         case Bigger = 40.0
         case Big = 29.0
         case Header = 20.0
@@ -20,15 +20,19 @@ extension UIFont {
         case Small = 14.0
     }
 
-    class func defaultFont(size : CGFloat) -> UIFont {
+    class func defaultFont(size: CGFloat) -> UIFont {
         return UIFont(name: "Latam_Sans_Regular", size: size)!
     }
 
-    class func defaultFontBold(size : CGFloat) -> UIFont {
+    class func defaultFontBold(size: CGFloat) -> UIFont {
         return UIFont(name: "Latam_Sans_Bold", size: size)!
     }
 
-    private func withTraits(traits:UIFontDescriptorSymbolicTraits...) -> UIFont {
+    class func defaultFontLight(size: CGFloat) -> UIFont {
+        return UIFont(name: "Latam_Sans_Light", size: size)!
+    }
+
+    private func withTraits(traits: UIFontDescriptorSymbolicTraits...) -> UIFont {
         let descriptor = self.fontDescriptor
             .withSymbolicTraits(UIFontDescriptorSymbolicTraits(traits))
         return UIFont(descriptor: descriptor!, size: 0)
