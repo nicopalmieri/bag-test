@@ -16,12 +16,6 @@
 		386590B41FE1A7D000644A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B93671FD83F3500C33BBA /* Main.storyboard */; };
 		386590B51FE1A7DA00644A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B936C1FD83F3500C33BBA /* LaunchScreen.storyboard */; };
 		386590B61FE1A7E100644A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389B936A1FD83F3500C33BBA /* Assets.xcassets */; };
-		386590B81FE2B70600644A89 /* LatamBaggageTrackingiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386590B71FE2B70600644A89 /* LatamBaggageTrackingiOSApp.swift */; };
-		386590B91FE2B70600644A89 /* LatamBaggageTrackingiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386590B71FE2B70600644A89 /* LatamBaggageTrackingiOSApp.swift */; };
-		386B41991FE2B9DC00FAB883 /* Thread+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B41981FE2B9DC00FAB883 /* Thread+bag.swift */; };
-		386B419A1FE2B9DC00FAB883 /* Thread+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B41981FE2B9DC00FAB883 /* Thread+bag.swift */; };
-		386B419C1FE2BA6800FAB883 /* UINavigation+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B419B1FE2BA6800FAB883 /* UINavigation+bag.swift */; };
-		386B419D1FE2BA6800FAB883 /* UINavigation+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B419B1FE2BA6800FAB883 /* UINavigation+bag.swift */; };
 		386B41A01FE2BAF000FAB883 /* Dictionary+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B419F1FE2BAF000FAB883 /* Dictionary+helper.swift */; };
 		386B41A11FE2BAF000FAB883 /* Dictionary+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B419F1FE2BAF000FAB883 /* Dictionary+helper.swift */; };
 		38738CA41FE9858D00D4BD8D /* UIFont+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38738CA31FE9858D00D4BD8D /* UIFont+bag.swift */; };
@@ -43,6 +37,13 @@
 		38738CC21FEA9D8A00D4BD8D /* Date+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38738CC11FEA9D8A00D4BD8D /* Date+bag.swift */; };
 		387C51261FE2EFF00028F9E7 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387C51251FE2EFF00028F9E7 /* Configuration.swift */; };
 		38839C221FE85C2A009DC2A0 /* LoginControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388DAC041FE84E2700526896 /* LoginControllerTests.swift */; };
+		3889D4521FEAF192002452B2 /* LatamBaggageTrackingiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3889D4511FEAF18D002452B2 /* LatamBaggageTrackingiOSApp.swift */; };
+		3889D4531FEAF196002452B2 /* Thread+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3889D44F1FEAF167002452B2 /* Thread+bag.swift */; };
+		3889D4541FEAF19A002452B2 /* Thread+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3889D44F1FEAF167002452B2 /* Thread+bag.swift */; };
+		3889D4551FEAF19D002452B2 /* LatamBaggageTrackingiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3889D4511FEAF18D002452B2 /* LatamBaggageTrackingiOSApp.swift */; };
+		3889D4561FEAF1A2002452B2 /* UINavigation+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3889D4501FEAF174002452B2 /* UINavigation+bag.swift */; };
+		3889D4571FEAF1A3002452B2 /* UINavigation+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3889D4501FEAF174002452B2 /* UINavigation+bag.swift */; };
+		3889D4581FEAF1A8002452B2 /* Date+bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38738CC11FEA9D8A00D4BD8D /* Date+bag.swift */; };
 		388DAC001FE8432800526896 /* Spurious.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A5A1FE2EA8900F00D48 /* Spurious.swift */; };
 		388DAC011FE8432D00526896 /* EquatableValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A5C1FE2EAF900F00D48 /* EquatableValueType.swift */; };
 		388DAC021FE8433100526896 /* SpuriousTestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A5F1FE2EB3E00F00D48 /* SpuriousTestable.swift */; };
@@ -51,14 +52,14 @@
 		389B93691FD83F3500C33BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B93671FD83F3500C33BBA /* Main.storyboard */; };
 		389B936B1FD83F3500C33BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389B936A1FD83F3500C33BBA /* Assets.xcassets */; };
 		389B936E1FD83F3500C33BBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389B936C1FD83F3500C33BBA /* LaunchScreen.storyboard */; };
-		389B93841FD83F3500C33BBA /* baggageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93831FD83F3500C33BBA /* baggageUITests.swift */; };
+		389B93841FD83F3500C33BBA /* mobileskeletoniosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93831FD83F3500C33BBA /* mobileskeletoniosUITests.swift */; };
 		389B93931FD864AB00C33BBA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93921FD864AB00C33BBA /* Alamofire.framework */; };
 		389B93951FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93941FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework */; };
-		38BA98C91FDF0706008297AA /* baggage_journey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BA98C01FDF0706008297AA /* baggage_journey.framework */; };
+		38BA98C91FDF0706008297AA /* mobileskeletonios_journey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BA98C01FDF0706008297AA /* mobileskeletonios_journey.framework */; };
 		38BA98D01FDF0706008297AA /* baggage_journeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA98CF1FDF0706008297AA /* baggage_journeyTests.swift */; };
 		38BA98D21FDF0706008297AA /* baggage_journey.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BA98C21FDF0706008297AA /* baggage_journey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38BA98D51FDF0706008297AA /* baggage_journey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BA98C01FDF0706008297AA /* baggage_journey.framework */; };
-		38BA98D71FDF0706008297AA /* baggage_journey.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38BA98C01FDF0706008297AA /* baggage_journey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		38BA98D51FDF0706008297AA /* mobileskeletonios_journey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BA98C01FDF0706008297AA /* mobileskeletonios_journey.framework */; };
+		38BA98D71FDF0706008297AA /* mobileskeletonios_journey.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38BA98C01FDF0706008297AA /* mobileskeletonios_journey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38BA98DF1FDF0715008297AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93631FD83F3500C33BBA /* AppDelegate.swift */; };
 		38BA98F11FE16FF6008297AA /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA98F01FE16FF6008297AA /* LoginController.swift */; };
 /* End PBXBuildFile section */
@@ -108,7 +109,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				38BA98D71FDF0706008297AA /* baggage_journey.framework in Embed Frameworks */,
+				38BA98D71FDF0706008297AA /* mobileskeletonios_journey.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,9 +125,6 @@
 		383F3A5F1FE2EB3E00F00D48 /* SpuriousTestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpuriousTestable.swift; sourceTree = "<group>"; };
 		383F3A621FE2EB7000F00D48 /* SpuriousManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpuriousManager.swift; sourceTree = "<group>"; };
 		383F53F41FE8B46D00A7B9BE /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		386590B71FE2B70600644A89 /* LatamBaggageTrackingiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LatamBaggageTrackingiOSApp.swift; path = baggage/Managers/LatamBaggageTrackingiOSApp.swift; sourceTree = SOURCE_ROOT; };
-		386B41981FE2B9DC00FAB883 /* Thread+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Thread+bag.swift"; path = "baggage/Extensions/Thread+bag.swift"; sourceTree = SOURCE_ROOT; };
-		386B419B1FE2BA6800FAB883 /* UINavigation+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UINavigation+bag.swift"; path = "baggage/Extensions/UINavigation+bag.swift"; sourceTree = SOURCE_ROOT; };
 		386B419F1FE2BAF000FAB883 /* Dictionary+helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+helper.swift"; sourceTree = "<group>"; };
 		38738CA31FE9858D00D4BD8D /* UIFont+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+bag.swift"; sourceTree = "<group>"; };
 		38738CA81FEA96BC00D4BD8D /* Latam_Sans_Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Latam_Sans_Hairline.ttf; sourceTree = "<group>"; };
@@ -143,25 +141,28 @@
 		38738CB31FEA99A100D4BD8D /* String+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+bag.swift"; sourceTree = "<group>"; };
 		38738CC11FEA9D8A00D4BD8D /* Date+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+bag.swift"; sourceTree = "<group>"; };
 		387C51251FE2EFF00028F9E7 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		3889D44F1FEAF167002452B2 /* Thread+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thread+bag.swift"; sourceTree = "<group>"; };
+		3889D4501FEAF174002452B2 /* UINavigation+bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigation+bag.swift"; sourceTree = "<group>"; };
+		3889D4511FEAF18D002452B2 /* LatamBaggageTrackingiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatamBaggageTrackingiOSApp.swift; sourceTree = "<group>"; };
 		388DABFA1FE840CC00526896 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		388DAC041FE84E2700526896 /* LoginControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginControllerTests.swift; sourceTree = "<group>"; };
-		389B93601FD83F3500C33BBA /* baggage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baggage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		389B93601FD83F3500C33BBA /* mobileskeletonios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobileskeletonios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		389B93631FD83F3500C33BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		389B93681FD83F3500C33BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		389B936A1FD83F3500C33BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		389B936D1FD83F3500C33BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		389B936F1FD83F3500C33BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		389B93741FD83F3500C33BBA /* baggageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baggageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		389B93741FD83F3500C33BBA /* mobileskeletoniosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobileskeletoniosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		389B937A1FD83F3500C33BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		389B937F1FD83F3500C33BBA /* baggageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baggageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		389B93831FD83F3500C33BBA /* baggageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baggageUITests.swift; sourceTree = "<group>"; };
+		389B937F1FD83F3500C33BBA /* mobileskeletoniosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobileskeletoniosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		389B93831FD83F3500C33BBA /* mobileskeletoniosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileskeletoniosUITests.swift; sourceTree = "<group>"; };
 		389B93851FD83F3500C33BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		389B93921FD864AB00C33BBA /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		389B93941FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireNetworkActivityIndicator.framework; path = Carthage/Build/iOS/AlamofireNetworkActivityIndicator.framework; sourceTree = "<group>"; };
-		38BA98C01FDF0706008297AA /* baggage_journey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = baggage_journey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BA98C01FDF0706008297AA /* mobileskeletonios_journey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mobileskeletonios_journey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BA98C21FDF0706008297AA /* baggage_journey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baggage_journey.h; sourceTree = "<group>"; };
 		38BA98C31FDF0706008297AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38BA98C81FDF0706008297AA /* baggage-journeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "baggage-journeyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BA98C81FDF0706008297AA /* mobileskeletonios-journeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mobileskeletonios-journeyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BA98CF1FDF0706008297AA /* baggage_journeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baggage_journeyTests.swift; sourceTree = "<group>"; };
 		38BA98D11FDF0706008297AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38BA98F01FE16FF6008297AA /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
@@ -174,7 +175,7 @@
 			files = (
 				389B93931FD864AB00C33BBA /* Alamofire.framework in Frameworks */,
 				389B93951FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework in Frameworks */,
-				38BA98D51FDF0706008297AA /* baggage_journey.framework in Frameworks */,
+				38BA98D51FDF0706008297AA /* mobileskeletonios_journey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +206,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38BA98C91FDF0706008297AA /* baggage_journey.framework in Frameworks */,
+				38BA98C91FDF0706008297AA /* mobileskeletonios_journey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +243,7 @@
 		386B41951FE2B97000FAB883 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				386590B71FE2B70600644A89 /* LatamBaggageTrackingiOSApp.swift */,
+				3889D4511FEAF18D002452B2 /* LatamBaggageTrackingiOSApp.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -267,9 +268,9 @@
 		386B41A61FE2BBDF00FAB883 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				386B41981FE2B9DC00FAB883 /* Thread+bag.swift */,
-				386B419B1FE2BA6800FAB883 /* UINavigation+bag.swift */,
+				3889D44F1FEAF167002452B2 /* Thread+bag.swift */,
 				382C0C871FE946DE001784DA /* UI+Identifiers.swift */,
+				3889D4501FEAF174002452B2 /* UINavigation+bag.swift */,
 				38738CA31FE9858D00D4BD8D /* UIFont+bag.swift */,
 				38738CB31FEA99A100D4BD8D /* String+bag.swift */,
 				38738CC11FEA9D8A00D4BD8D /* Date+bag.swift */,
@@ -298,9 +299,9 @@
 		389B93571FD83F3500C33BBA = {
 			isa = PBXGroup;
 			children = (
-				389B93621FD83F3500C33BBA /* baggage */,
-				389B93771FD83F3500C33BBA /* baggageTests */,
-				389B93821FD83F3500C33BBA /* baggageUITests */,
+				389B93621FD83F3500C33BBA /* mobileskeletonios */,
+				389B93771FD83F3500C33BBA /* mobileskeletoniosTests */,
+				389B93821FD83F3500C33BBA /* mobileskeletoniosUITests */,
 				38BA98C11FDF0706008297AA /* baggage-journey */,
 				38BA98CE1FDF0706008297AA /* baggage-journeyTests */,
 				389B93611FD83F3500C33BBA /* Products */,
@@ -311,16 +312,16 @@
 		389B93611FD83F3500C33BBA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				389B93601FD83F3500C33BBA /* baggage.app */,
-				389B93741FD83F3500C33BBA /* baggageTests.xctest */,
-				389B937F1FD83F3500C33BBA /* baggageUITests.xctest */,
-				38BA98C01FDF0706008297AA /* baggage_journey.framework */,
-				38BA98C81FDF0706008297AA /* baggage-journeyTests.xctest */,
+				389B93601FD83F3500C33BBA /* mobileskeletonios.app */,
+				389B93741FD83F3500C33BBA /* mobileskeletoniosTests.xctest */,
+				389B937F1FD83F3500C33BBA /* mobileskeletoniosUITests.xctest */,
+				38BA98C01FDF0706008297AA /* mobileskeletonios_journey.framework */,
+				38BA98C81FDF0706008297AA /* mobileskeletonios-journeyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		389B93621FD83F3500C33BBA /* baggage */ = {
+		389B93621FD83F3500C33BBA /* mobileskeletonios */ = {
 			isa = PBXGroup;
 			children = (
 				389B93631FD83F3500C33BBA /* AppDelegate.swift */,
@@ -335,26 +336,26 @@
 				386B419E1FE2BADD00FAB883 /* Helpers */,
 				38738CA71FEA966600D4BD8D /* Fonts */,
 			);
-			path = baggage;
+			path = mobileskeletonios;
 			sourceTree = "<group>";
 		};
-		389B93771FD83F3500C33BBA /* baggageTests */ = {
+		389B93771FD83F3500C33BBA /* mobileskeletoniosTests */ = {
 			isa = PBXGroup;
 			children = (
 				383F3A581FE2E96500F00D48 /* Libraries */,
 				389B937A1FD83F3500C33BBA /* Info.plist */,
 				388DAC041FE84E2700526896 /* LoginControllerTests.swift */,
 			);
-			path = baggageTests;
+			path = mobileskeletoniosTests;
 			sourceTree = "<group>";
 		};
-		389B93821FD83F3500C33BBA /* baggageUITests */ = {
+		389B93821FD83F3500C33BBA /* mobileskeletoniosUITests */ = {
 			isa = PBXGroup;
 			children = (
-				389B93831FD83F3500C33BBA /* baggageUITests.swift */,
+				389B93831FD83F3500C33BBA /* mobileskeletoniosUITests.swift */,
 				389B93851FD83F3500C33BBA /* Info.plist */,
 			);
-			path = baggageUITests;
+			path = mobileskeletoniosUITests;
 			sourceTree = "<group>";
 		};
 		389B93911FD864AB00C33BBA /* Frameworks */ = {
@@ -401,9 +402,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		389B935F1FD83F3500C33BBA /* baggage */ = {
+		389B935F1FD83F3500C33BBA /* mobileskeletonios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 389B93881FD83F3500C33BBA /* Build configuration list for PBXNativeTarget "baggage" */;
+			buildConfigurationList = 389B93881FD83F3500C33BBA /* Build configuration list for PBXNativeTarget "mobileskeletonios" */;
 			buildPhases = (
 				389B935C1FD83F3500C33BBA /* Sources */,
 				389B935D1FD83F3500C33BBA /* Frameworks */,
@@ -416,14 +417,14 @@
 			dependencies = (
 				38BA98D41FDF0706008297AA /* PBXTargetDependency */,
 			);
-			name = baggage;
+			name = mobileskeletonios;
 			productName = baggage;
-			productReference = 389B93601FD83F3500C33BBA /* baggage.app */;
+			productReference = 389B93601FD83F3500C33BBA /* mobileskeletonios.app */;
 			productType = "com.apple.product-type.application";
 		};
-		389B93731FD83F3500C33BBA /* baggageTests */ = {
+		389B93731FD83F3500C33BBA /* mobileskeletoniosTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 389B938B1FD83F3500C33BBA /* Build configuration list for PBXNativeTarget "baggageTests" */;
+			buildConfigurationList = 389B938B1FD83F3500C33BBA /* Build configuration list for PBXNativeTarget "mobileskeletoniosTests" */;
 			buildPhases = (
 				389B93701FD83F3500C33BBA /* Sources */,
 				389B93711FD83F3500C33BBA /* Frameworks */,
@@ -434,14 +435,14 @@
 			dependencies = (
 				389B93761FD83F3500C33BBA /* PBXTargetDependency */,
 			);
-			name = baggageTests;
+			name = mobileskeletoniosTests;
 			productName = baggageTests;
-			productReference = 389B93741FD83F3500C33BBA /* baggageTests.xctest */;
+			productReference = 389B93741FD83F3500C33BBA /* mobileskeletoniosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		389B937E1FD83F3500C33BBA /* baggageUITests */ = {
+		389B937E1FD83F3500C33BBA /* mobileskeletoniosUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 389B938E1FD83F3500C33BBA /* Build configuration list for PBXNativeTarget "baggageUITests" */;
+			buildConfigurationList = 389B938E1FD83F3500C33BBA /* Build configuration list for PBXNativeTarget "mobileskeletoniosUITests" */;
 			buildPhases = (
 				389B937B1FD83F3500C33BBA /* Sources */,
 				389B937C1FD83F3500C33BBA /* Frameworks */,
@@ -452,14 +453,14 @@
 			dependencies = (
 				389B93811FD83F3500C33BBA /* PBXTargetDependency */,
 			);
-			name = baggageUITests;
+			name = mobileskeletoniosUITests;
 			productName = baggageUITests;
-			productReference = 389B937F1FD83F3500C33BBA /* baggageUITests.xctest */;
+			productReference = 389B937F1FD83F3500C33BBA /* mobileskeletoniosUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		38BA98BF1FDF0706008297AA /* baggage-journey */ = {
+		38BA98BF1FDF0706008297AA /* mobileskeletonios-journey */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38BA98DC1FDF0706008297AA /* Build configuration list for PBXNativeTarget "baggage-journey" */;
+			buildConfigurationList = 38BA98DC1FDF0706008297AA /* Build configuration list for PBXNativeTarget "mobileskeletonios-journey" */;
 			buildPhases = (
 				38BA98BB1FDF0706008297AA /* Sources */,
 				38BA98BC1FDF0706008297AA /* Frameworks */,
@@ -471,14 +472,14 @@
 			);
 			dependencies = (
 			);
-			name = "baggage-journey";
+			name = "mobileskeletonios-journey";
 			productName = "baggage-journey";
-			productReference = 38BA98C01FDF0706008297AA /* baggage_journey.framework */;
+			productReference = 38BA98C01FDF0706008297AA /* mobileskeletonios_journey.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		38BA98C71FDF0706008297AA /* baggage-journeyTests */ = {
+		38BA98C71FDF0706008297AA /* mobileskeletonios-journeyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38BA98DD1FDF0706008297AA /* Build configuration list for PBXNativeTarget "baggage-journeyTests" */;
+			buildConfigurationList = 38BA98DD1FDF0706008297AA /* Build configuration list for PBXNativeTarget "mobileskeletonios-journeyTests" */;
 			buildPhases = (
 				38BA98C41FDF0706008297AA /* Sources */,
 				38BA98C51FDF0706008297AA /* Frameworks */,
@@ -490,9 +491,9 @@
 				38BA98CB1FDF0706008297AA /* PBXTargetDependency */,
 				38BA98CD1FDF0706008297AA /* PBXTargetDependency */,
 			);
-			name = "baggage-journeyTests";
+			name = "mobileskeletonios-journeyTests";
 			productName = "baggage-journeyTests";
-			productReference = 38BA98C81FDF0706008297AA /* baggage-journeyTests.xctest */;
+			productReference = 38BA98C81FDF0706008297AA /* mobileskeletonios-journeyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -530,7 +531,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 389B935B1FD83F3500C33BBA /* Build configuration list for PBXProject "baggage" */;
+			buildConfigurationList = 389B935B1FD83F3500C33BBA /* Build configuration list for PBXProject "mobileskeletonios" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -543,11 +544,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				389B935F1FD83F3500C33BBA /* baggage */,
-				389B93731FD83F3500C33BBA /* baggageTests */,
-				389B937E1FD83F3500C33BBA /* baggageUITests */,
-				38BA98BF1FDF0706008297AA /* baggage-journey */,
-				38BA98C71FDF0706008297AA /* baggage-journeyTests */,
+				389B935F1FD83F3500C33BBA /* mobileskeletonios */,
+				389B93731FD83F3500C33BBA /* mobileskeletoniosTests */,
+				389B937E1FD83F3500C33BBA /* mobileskeletoniosUITests */,
+				38BA98BF1FDF0706008297AA /* mobileskeletonios-journey */,
+				38BA98C71FDF0706008297AA /* mobileskeletonios-journeyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -645,16 +646,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3889D4531FEAF196002452B2 /* Thread+bag.swift in Sources */,
 				382C0C881FE946DE001784DA /* UI+Identifiers.swift in Sources */,
 				38738CB41FEA99A100D4BD8D /* String+bag.swift in Sources */,
-				386B419C1FE2BA6800FAB883 /* UINavigation+bag.swift in Sources */,
+				3889D4521FEAF192002452B2 /* LatamBaggageTrackingiOSApp.swift in Sources */,
 				389B93641FD83F3500C33BBA /* AppDelegate.swift in Sources */,
 				38738CC21FEA9D8A00D4BD8D /* Date+bag.swift in Sources */,
 				38738CA41FE9858D00D4BD8D /* UIFont+bag.swift in Sources */,
 				38BA98F11FE16FF6008297AA /* LoginController.swift in Sources */,
+				3889D4561FEAF1A2002452B2 /* UINavigation+bag.swift in Sources */,
 				387C51261FE2EFF00028F9E7 /* Configuration.swift in Sources */,
-				386590B81FE2B70600644A89 /* LatamBaggageTrackingiOSApp.swift in Sources */,
-				386B41991FE2B9DC00FAB883 /* Thread+bag.swift in Sources */,
 				383F3A561FE2CED500F00D48 /* ScrimView+helper.swift in Sources */,
 				386B41A01FE2BAF000FAB883 /* Dictionary+helper.swift in Sources */,
 			);
@@ -676,7 +677,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				389B93841FD83F3500C33BBA /* baggageUITests.swift in Sources */,
+				389B93841FD83F3500C33BBA /* mobileskeletoniosUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,15 +685,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				386B419D1FE2BA6800FAB883 /* UINavigation+bag.swift in Sources */,
+				3889D4571FEAF1A3002452B2 /* UINavigation+bag.swift in Sources */,
+				3889D4541FEAF19A002452B2 /* Thread+bag.swift in Sources */,
+				3889D4581FEAF1A8002452B2 /* Date+bag.swift in Sources */,
 				38BA98DF1FDF0715008297AA /* AppDelegate.swift in Sources */,
 				38738CA61FE9859A00D4BD8D /* UIFont+bag.swift in Sources */,
 				38738CB51FEA9C4600D4BD8D /* String+bag.swift in Sources */,
 				386590B31FE178AB00644A89 /* LoginController.swift in Sources */,
-				386B419A1FE2B9DC00FAB883 /* Thread+bag.swift in Sources */,
-				386590B91FE2B70600644A89 /* LatamBaggageTrackingiOSApp.swift in Sources */,
 				383F3A571FE2CED700F00D48 /* ScrimView+helper.swift in Sources */,
 				38738CA51FE9859700D4BD8D /* UI+Identifiers.swift in Sources */,
+				3889D4551FEAF19D002452B2 /* LatamBaggageTrackingiOSApp.swift in Sources */,
 				386B41A11FE2BAF000FAB883 /* Dictionary+helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -710,27 +712,27 @@
 /* Begin PBXTargetDependency section */
 		389B93761FD83F3500C33BBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 389B935F1FD83F3500C33BBA /* baggage */;
+			target = 389B935F1FD83F3500C33BBA /* mobileskeletonios */;
 			targetProxy = 389B93751FD83F3500C33BBA /* PBXContainerItemProxy */;
 		};
 		389B93811FD83F3500C33BBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 389B935F1FD83F3500C33BBA /* baggage */;
+			target = 389B935F1FD83F3500C33BBA /* mobileskeletonios */;
 			targetProxy = 389B93801FD83F3500C33BBA /* PBXContainerItemProxy */;
 		};
 		38BA98CB1FDF0706008297AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 38BA98BF1FDF0706008297AA /* baggage-journey */;
+			target = 38BA98BF1FDF0706008297AA /* mobileskeletonios-journey */;
 			targetProxy = 38BA98CA1FDF0706008297AA /* PBXContainerItemProxy */;
 		};
 		38BA98CD1FDF0706008297AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 389B935F1FD83F3500C33BBA /* baggage */;
+			target = 389B935F1FD83F3500C33BBA /* mobileskeletonios */;
 			targetProxy = 38BA98CC1FDF0706008297AA /* PBXContainerItemProxy */;
 		};
 		38BA98D41FDF0706008297AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 38BA98BF1FDF0706008297AA /* baggage-journey */;
+			target = 38BA98BF1FDF0706008297AA /* mobileskeletonios-journey */;
 			targetProxy = 38BA98D31FDF0706008297AA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -879,10 +881,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = baggage/Info.plist;
+				INFOPLIST_FILE = mobileskeletonios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.latam.baggage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.latam.mobileskeletonios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -900,10 +902,10 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = "PROD=1";
-				INFOPLIST_FILE = baggage/Info.plist;
+				INFOPLIST_FILE = mobileskeletonios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.latam.baggage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.latam.mobileskeletonios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -920,13 +922,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = baggageTests/Info.plist;
+				INFOPLIST_FILE = mobileskeletoniosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.latam.baggageTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.latam.mobileskeletoniosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baggage.app/baggage";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobileskeletonios.app/mobileskeletonios";
 			};
 			name = Debug;
 		};
@@ -940,13 +942,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = baggageTests/Info.plist;
+				INFOPLIST_FILE = mobileskeletoniosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.latam.baggageTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.latam.mobileskeletoniosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baggage.app/baggage";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobileskeletonios.app/mobileskeletonios";
 			};
 			name = Release;
 		};
@@ -959,9 +961,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = baggageUITests/Info.plist;
+				INFOPLIST_FILE = mobileskeletoniosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.latam.baggageUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.latam.mobileskeletoniosUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -978,9 +980,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = baggageUITests/Info.plist;
+				INFOPLIST_FILE = mobileskeletoniosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.latam.baggageUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.latam.mobileskeletoniosUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1000,12 +1002,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "baggage-journey/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.latam.baggage-journey";
+				PRODUCT_BUNDLE_IDENTIFIER = com.latam.mobilebundleskeletonios;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1023,12 +1026,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "baggage-journey/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.latam.baggage-journey";
+				PRODUCT_BUNDLE_IDENTIFIER = com.latam.mobilebundleskeletonios;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1045,7 +1049,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baggage.app/baggage";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobileskeletonios.app/mobileskeletonios";
 			};
 			name = Debug;
 		};
@@ -1060,14 +1064,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baggage.app/baggage";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobileskeletonios.app/mobileskeletonios";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		389B935B1FD83F3500C33BBA /* Build configuration list for PBXProject "baggage" */ = {
+		389B935B1FD83F3500C33BBA /* Build configuration list for PBXProject "mobileskeletonios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				389B93861FD83F3500C33BBA /* Debug */,
@@ -1076,7 +1080,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		389B93881FD83F3500C33BBA /* Build configuration list for PBXNativeTarget "baggage" */ = {
+		389B93881FD83F3500C33BBA /* Build configuration list for PBXNativeTarget "mobileskeletonios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				389B93891FD83F3500C33BBA /* Debug */,
@@ -1085,7 +1089,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		389B938B1FD83F3500C33BBA /* Build configuration list for PBXNativeTarget "baggageTests" */ = {
+		389B938B1FD83F3500C33BBA /* Build configuration list for PBXNativeTarget "mobileskeletoniosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				389B938C1FD83F3500C33BBA /* Debug */,
@@ -1094,7 +1098,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		389B938E1FD83F3500C33BBA /* Build configuration list for PBXNativeTarget "baggageUITests" */ = {
+		389B938E1FD83F3500C33BBA /* Build configuration list for PBXNativeTarget "mobileskeletoniosUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				389B938F1FD83F3500C33BBA /* Debug */,
@@ -1103,7 +1107,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38BA98DC1FDF0706008297AA /* Build configuration list for PBXNativeTarget "baggage-journey" */ = {
+		38BA98DC1FDF0706008297AA /* Build configuration list for PBXNativeTarget "mobileskeletonios-journey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				38BA98D81FDF0706008297AA /* Debug */,
@@ -1112,7 +1116,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38BA98DD1FDF0706008297AA /* Build configuration list for PBXNativeTarget "baggage-journeyTests" */ = {
+		38BA98DD1FDF0706008297AA /* Build configuration list for PBXNativeTarget "mobileskeletonios-journeyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				38BA98DA1FDF0706008297AA /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "389B935F1FD83F3500C33BBA"
-               BuildableName = "baggage.app"
-               BlueprintName = "baggage"
-               ReferencedContainer = "container:baggage.xcodeproj">
+               BuildableName = "mobileskeletonios.app"
+               BlueprintName = "mobileskeletonios"
+               ReferencedContainer = "container:mobileskeletonios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,9 +35,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "389B93731FD83F3500C33BBA"
-               BuildableName = "baggageTests.xctest"
-               BlueprintName = "baggageTests"
-               ReferencedContainer = "container:baggage.xcodeproj">
+               BuildableName = "mobileskeletoniosTests.xctest"
+               BlueprintName = "mobileskeletoniosTests"
+               ReferencedContainer = "container:mobileskeletonios.xcodeproj">
             </BuildableReference>
             <LocationScenarioReference
                identifier = "com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier"
@@ -49,9 +49,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "389B937E1FD83F3500C33BBA"
-               BuildableName = "baggageUITests.xctest"
-               BlueprintName = "baggageUITests"
-               ReferencedContainer = "container:baggage.xcodeproj">
+               BuildableName = "mobileskeletoniosUITests.xctest"
+               BlueprintName = "mobileskeletoniosUITests"
+               ReferencedContainer = "container:mobileskeletonios.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -59,9 +59,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "38BA98C71FDF0706008297AA"
-               BuildableName = "baggage-journeyTests.xctest"
-               BlueprintName = "baggage-journeyTests"
-               ReferencedContainer = "container:baggage.xcodeproj">
+               BuildableName = "mobileskeletonios-journeyTests.xctest"
+               BlueprintName = "mobileskeletonios-journeyTests"
+               ReferencedContainer = "container:mobileskeletonios.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -69,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "389B935F1FD83F3500C33BBA"
-            BuildableName = "baggage.app"
-            BlueprintName = "baggage"
-            ReferencedContainer = "container:baggage.xcodeproj">
+            BuildableName = "mobileskeletonios.app"
+            BlueprintName = "mobileskeletonios"
+            ReferencedContainer = "container:mobileskeletonios.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -93,9 +93,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "389B935F1FD83F3500C33BBA"
-            BuildableName = "baggage.app"
-            BlueprintName = "baggage"
-            ReferencedContainer = "container:baggage.xcodeproj">
+            BuildableName = "mobileskeletonios.app"
+            BlueprintName = "mobileskeletonios"
+            ReferencedContainer = "container:mobileskeletonios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -112,9 +112,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "389B935F1FD83F3500C33BBA"
-            BuildableName = "baggage.app"
-            BlueprintName = "baggage"
-            ReferencedContainer = "container:baggage.xcodeproj">
+            BuildableName = "mobileskeletonios.app"
+            BlueprintName = "mobileskeletonios"
+            ReferencedContainer = "container:mobileskeletonios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

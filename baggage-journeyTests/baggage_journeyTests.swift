@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import baggage_journey
+@testable import mobileskeletonios_journey
 
 class baggage_journeyTests: XCTestCase {
 

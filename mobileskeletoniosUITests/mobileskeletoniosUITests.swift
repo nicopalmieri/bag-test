@@ -1,6 +1,6 @@
 //
-//  baggageUITests.swift
-//  baggageUITests
+//  mobileskeletoniosUITests.swift
+//  mobileskeletoniosUITests
 //
 //  Created by Nicolas Palmieri on 12/6/17.
 //  Copyright © 2017 Nicolas Palmieri. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class baggageUITests: XCTestCase {
+class mobileskeletoniosUITests: XCTestCase {
 
     override func setUp() {
         super.setUp()

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:baggage.xcodeproj">
+      location = "self:/Users/npalmieri/workspace/LATAM/baggage/mobileskeletonios.xcodeproj">
    </FileRef>
 </Workspace>

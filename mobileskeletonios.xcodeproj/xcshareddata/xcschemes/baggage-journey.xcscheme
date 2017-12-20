@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "38BA98BF1FDF0706008297AA"
-               BuildableName = "baggage_journey.framework"
-               BlueprintName = "baggage-journey"
-               ReferencedContainer = "container:baggage.xcodeproj">
+               BuildableName = "mobileskeletonios_journey.framework"
+               BlueprintName = "mobileskeletonios-journey"
+               ReferencedContainer = "container:mobileskeletonios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,9 +48,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "38BA98BF1FDF0706008297AA"
-            BuildableName = "baggage_journey.framework"
-            BlueprintName = "baggage-journey"
-            ReferencedContainer = "container:baggage.xcodeproj">
+            BuildableName = "mobileskeletonios_journey.framework"
+            BlueprintName = "mobileskeletonios-journey"
+            ReferencedContainer = "container:mobileskeletonios.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "38BA98BF1FDF0706008297AA"
-            BuildableName = "baggage_journey.framework"
-            BlueprintName = "baggage-journey"
-            ReferencedContainer = "container:baggage.xcodeproj">
+            BuildableName = "mobileskeletonios_journey.framework"
+            BlueprintName = "mobileskeletonios-journey"
+            ReferencedContainer = "container:mobileskeletonios.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

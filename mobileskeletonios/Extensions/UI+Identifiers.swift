@@ -14,7 +14,7 @@ extension UIViewController {
 
     class func identifier() -> String {
         let classString: String = NSStringFromClass(self)
-        let index = classString.index(classString.startIndex, offsetBy: 8)
+        let index = classString.index(classString.startIndex, offsetBy: 18)
         return String(classString[index...])
     }
 }
@@ -24,7 +24,7 @@ extension UIView {
 
     class func identifier() -> String? {
         let classString: String = NSStringFromClass(self)
-        let index = classString.index(classString.startIndex, offsetBy: 8)
+        let index = classString.index(classString.startIndex, offsetBy: 18)
         return String(classString[index...])
     }
 }
