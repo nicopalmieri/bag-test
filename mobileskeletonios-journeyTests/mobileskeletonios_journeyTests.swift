@@ -1,15 +1,15 @@
 //
-//  baggage_journeyTests.swift
-//  baggage-journeyTests
+//  mobileskeletonios_journeyTests.swift
+//  mobileskeletonios-journeyTests
 //
-//  Created by Nicolas Palmieri on 12/11/17.
-//  Copyright © 2017 Nicolas Palmieri. All rights reserved.
+//  Created by Nicolas Palmieri on 1/29/18.
+//  Copyright © 2018 Nicolas Palmieri. All rights reserved.
 //
 
 import XCTest
 @testable import mobileskeletonios_journey
 
-class baggage_journeyTests: XCTestCase {
+class mobileskeletonios_journeyTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
@@ -32,5 +32,4 @@ class baggage_journeyTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
 }

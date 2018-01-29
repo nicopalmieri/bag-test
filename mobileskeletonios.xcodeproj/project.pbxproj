@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38255F60201F6E1A00C4EF50 /* mobileskeletonios_journeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38255F5F201F6E1A00C4EF50 /* mobileskeletonios_journeyTests.swift */; };
 		382C0C881FE946DE001784DA /* UI+Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C0C871FE946DE001784DA /* UI+Identifiers.swift */; };
 		383F3A561FE2CED500F00D48 /* ScrimView+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */; };
 		383F3A571FE2CED700F00D48 /* ScrimView+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */; };
@@ -56,8 +57,7 @@
 		389B93931FD864AB00C33BBA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93921FD864AB00C33BBA /* Alamofire.framework */; };
 		389B93951FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B93941FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework */; };
 		38BA98C91FDF0706008297AA /* mobileskeletonios_journey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BA98C01FDF0706008297AA /* mobileskeletonios_journey.framework */; };
-		38BA98D01FDF0706008297AA /* baggage_journeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA98CF1FDF0706008297AA /* baggage_journeyTests.swift */; };
-		38BA98D21FDF0706008297AA /* baggage_journey.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BA98C21FDF0706008297AA /* baggage_journey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38BA98D21FDF0706008297AA /* mobileskeletonios_journey.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BA98C21FDF0706008297AA /* mobileskeletonios_journey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38BA98D51FDF0706008297AA /* mobileskeletonios_journey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BA98C01FDF0706008297AA /* mobileskeletonios_journey.framework */; };
 		38BA98D71FDF0706008297AA /* mobileskeletonios_journey.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38BA98C01FDF0706008297AA /* mobileskeletonios_journey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38BA98DF1FDF0715008297AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B93631FD83F3500C33BBA /* AppDelegate.swift */; };
@@ -117,6 +117,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		38255F5F201F6E1A00C4EF50 /* mobileskeletonios_journeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileskeletonios_journeyTests.swift; sourceTree = "<group>"; };
 		382C0C871FE946DE001784DA /* UI+Identifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI+Identifiers.swift"; sourceTree = "<group>"; };
 		383340A41FE85F8000B6CBD1 /* iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iOS; path = Carthage/Build/iOS; sourceTree = "<group>"; };
 		383F3A551FE2CED500F00D48 /* ScrimView+helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrimView+helper.swift"; sourceTree = "<group>"; };
@@ -160,10 +161,9 @@
 		389B93921FD864AB00C33BBA /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		389B93941FD864AF00C33BBA /* AlamofireNetworkActivityIndicator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireNetworkActivityIndicator.framework; path = Carthage/Build/iOS/AlamofireNetworkActivityIndicator.framework; sourceTree = "<group>"; };
 		38BA98C01FDF0706008297AA /* mobileskeletonios_journey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mobileskeletonios_journey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38BA98C21FDF0706008297AA /* baggage_journey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baggage_journey.h; sourceTree = "<group>"; };
+		38BA98C21FDF0706008297AA /* mobileskeletonios_journey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mobileskeletonios_journey.h; sourceTree = "<group>"; };
 		38BA98C31FDF0706008297AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38BA98C81FDF0706008297AA /* mobileskeletonios-journeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mobileskeletonios-journeyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		38BA98CF1FDF0706008297AA /* baggage_journeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baggage_journeyTests.swift; sourceTree = "<group>"; };
 		38BA98D11FDF0706008297AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38BA98F01FE16FF6008297AA /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -302,8 +302,8 @@
 				389B93621FD83F3500C33BBA /* mobileskeletonios */,
 				389B93771FD83F3500C33BBA /* mobileskeletoniosTests */,
 				389B93821FD83F3500C33BBA /* mobileskeletoniosUITests */,
-				38BA98C11FDF0706008297AA /* baggage-journey */,
-				38BA98CE1FDF0706008297AA /* baggage-journeyTests */,
+				38BA98C11FDF0706008297AA /* mobileskeletonios-journey */,
+				38BA98CE1FDF0706008297AA /* mobileskeletonios-journeyTests */,
 				389B93611FD83F3500C33BBA /* Products */,
 				389B93911FD864AB00C33BBA /* Frameworks */,
 			);
@@ -370,22 +370,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		38BA98C11FDF0706008297AA /* baggage-journey */ = {
+		38BA98C11FDF0706008297AA /* mobileskeletonios-journey */ = {
 			isa = PBXGroup;
 			children = (
-				38BA98C21FDF0706008297AA /* baggage_journey.h */,
+				38BA98C21FDF0706008297AA /* mobileskeletonios_journey.h */,
 				38BA98C31FDF0706008297AA /* Info.plist */,
 			);
-			path = "baggage-journey";
+			path = "mobileskeletonios-journey";
 			sourceTree = "<group>";
 		};
-		38BA98CE1FDF0706008297AA /* baggage-journeyTests */ = {
+		38BA98CE1FDF0706008297AA /* mobileskeletonios-journeyTests */ = {
 			isa = PBXGroup;
 			children = (
-				38BA98CF1FDF0706008297AA /* baggage_journeyTests.swift */,
 				38BA98D11FDF0706008297AA /* Info.plist */,
+				38255F5F201F6E1A00C4EF50 /* mobileskeletonios_journeyTests.swift */,
 			);
-			path = "baggage-journeyTests";
+			path = "mobileskeletonios-journeyTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,7 +395,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38BA98D21FDF0706008297AA /* baggage_journey.h in Headers */,
+				38BA98D21FDF0706008297AA /* mobileskeletonios_journey.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +526,7 @@
 					};
 					38BA98C71FDF0706008297AA = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 389B935F1FD83F3500C33BBA;
 					};
@@ -703,7 +704,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38BA98D01FDF0706008297AA /* baggage_journeyTests.swift in Sources */,
+				38255F60201F6E1A00C4EF50 /* mobileskeletonios_journeyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1000,7 +1001,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "baggage-journey/Info.plist";
+				INFOPLIST_FILE = "mobileskeletonios-journey/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1024,7 +1025,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "baggage-journey/Info.plist";
+				INFOPLIST_FILE = "mobileskeletonios-journey/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1042,11 +1043,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "baggage-journeyTests/Info.plist";
+				INFOPLIST_FILE = "mobileskeletonios-journeyTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.latam.baggage-journeyTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.latam.mobileskeletonios-journeyTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mobileskeletonios-journeyTests/mobileskeletonios-journeyTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobileskeletonios.app/mobileskeletonios";
@@ -1057,11 +1061,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "baggage-journeyTests/Info.plist";
+				INFOPLIST_FILE = "mobileskeletonios-journeyTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.latam.baggage-journeyTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.latam.mobileskeletonios-journeyTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mobileskeletonios-journeyTests/mobileskeletonios-journeyTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobileskeletonios.app/mobileskeletonios";
